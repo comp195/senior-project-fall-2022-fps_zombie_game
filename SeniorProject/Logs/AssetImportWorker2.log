@@ -1,0 +1,688 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16052 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/senior-project-fall-2022-fps_zombie_game/SeniorProject
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51024
+Successfully changed project path to: C:/senior-project-fall-2022-fps_zombie_game/SeniorProject
+C:/senior-project-fall-2022-fps_zombie_game/SeniorProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 62.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/senior-project-fall-2022-fps_zombie_game/SeniorProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   30.0.15.1339
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004304 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 55.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.427 seconds
+Domain Reload Profiling:
+	ReloadAssembly (428ms)
+		BeginReloadAssembly (48ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (309ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (67ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (191ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004862 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\senior-project-fall-2022-fps_zombie_game\SeniorProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\senior-project-fall-2022-fps_zombie_game\SeniorProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.695 seconds
+Domain Reload Profiling:
+	ReloadAssembly (696ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (544ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (462.7 KB). Loaded Objects now: 4109.
+Memory consumption went from 164.4 MB to 163.9 MB.
+Total: 2.409900 ms (FindLiveObjects: 0.181100 ms CreateObjectMapping: 0.075700 ms MarkObjects: 1.953200 ms  DeleteObjects: 0.197800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 137927.635252 seconds.
+  path: Assets/Polygon zombie package/Zombie prefabs/Zombie J Prefab.prefab
+  artifactKey: Guid(2350f66ce700ade4793681e75bbf455a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Zombie prefabs/Zombie J Prefab.prefab using Guid(2350f66ce700ade4793681e75bbf455a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fed1bcb56e4fa06670d240adfff00f2') in 0.276694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 151.413315 seconds.
+  path: Assets/Scripts/RigidbodyFirstPersonController.cs
+  artifactKey: Guid(af968463bdc34914aa8a0c47524d5d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RigidbodyFirstPersonController.cs using Guid(af968463bdc34914aa8a0c47524d5d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7739e1beef30c62869e3eea58b80d98b') in 0.011269 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005363 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\senior-project-fall-2022-fps_zombie_game\SeniorProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\senior-project-fall-2022-fps_zombie_game\SeniorProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.708 seconds
+Domain Reload Profiling:
+	ReloadAssembly (708ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (543ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (246ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3526 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (438.7 KB). Loaded Objects now: 4121.
+Memory consumption went from 171.7 MB to 171.2 MB.
+Total: 2.708800 ms (FindLiveObjects: 0.220800 ms CreateObjectMapping: 0.082300 ms MarkObjects: 2.127900 ms  DeleteObjects: 0.275900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005613 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\senior-project-fall-2022-fps_zombie_game\SeniorProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\senior-project-fall-2022-fps_zombie_game\SeniorProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.715 seconds
+Domain Reload Profiling:
+	ReloadAssembly (715ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (539ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3526 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (438.9 KB). Loaded Objects now: 4124.
+Memory consumption went from 171.7 MB to 171.2 MB.
+Total: 2.761500 ms (FindLiveObjects: 0.200800 ms CreateObjectMapping: 0.111500 ms MarkObjects: 2.173600 ms  DeleteObjects: 0.274400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004928 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\senior-project-fall-2022-fps_zombie_game\SeniorProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\senior-project-fall-2022-fps_zombie_game\SeniorProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Domain Reload Profiling:
+	ReloadAssembly (768ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3526 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (438.9 KB). Loaded Objects now: 4127.
+Memory consumption went from 171.7 MB to 171.3 MB.
+Total: 3.009900 ms (FindLiveObjects: 0.275500 ms CreateObjectMapping: 0.110100 ms MarkObjects: 2.383200 ms  DeleteObjects: 0.239700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25947.598200 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab
+  artifactKey: Guid(b674e077d11a35b4cac0a586bd1780e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab using Guid(b674e077d11a35b4cac0a586bd1780e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e46dfba5f05c5a9efb1349c83bd966') in 0.010825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004535 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/carton 1 prefab.prefab
+  artifactKey: Guid(3b1fbbd5ab4fb7d4e988221cd9eb334d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/carton 1 prefab.prefab using Guid(3b1fbbd5ab4fb7d4e988221cd9eb334d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6eee26301d469b51a96fe0efcca02e') in 0.092490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/Bush 2 prefab.prefab
+  artifactKey: Guid(6ebfc6898dc70814c86bb78d43e72a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/Bush 2 prefab.prefab using Guid(6ebfc6898dc70814c86bb78d43e72a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd0ef0740cb80d06d805effd16cc457') in 0.075640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.096159 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/carton 5 prefab.prefab
+  artifactKey: Guid(b4a143281e4aeee4c8d66290d10490ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/carton 5 prefab.prefab using Guid(b4a143281e4aeee4c8d66290d10490ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f4889511861caad34f0e091b399377') in 0.012176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042261 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/carton 6 prefab.prefab
+  artifactKey: Guid(836373eadf7a91548949b44adbdbf61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/carton 6 prefab.prefab using Guid(836373eadf7a91548949b44adbdbf61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e24eed69c57b82223ab4f26555467d1') in 0.007820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.757877 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/checkOut prefab.prefab
+  artifactKey: Guid(562b0ce36d512fa4091b1b21def068eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/checkOut prefab.prefab using Guid(562b0ce36d512fa4091b1b21def068eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4706fd899841662f072436252d6eb5') in 0.014908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032273 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/ColaMachine prefab.prefab
+  artifactKey: Guid(2bf7da734f1a8224fb14055902b5b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/ColaMachine prefab.prefab using Guid(2bf7da734f1a8224fb14055902b5b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5424ef50ce7de92b0396953d92e6ba') in 0.012895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.759184 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/counter food prefab.prefab
+  artifactKey: Guid(d510b494bec983342924e9e545651dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/counter food prefab.prefab using Guid(d510b494bec983342924e9e545651dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c059cfad7f1becd1f23f382da2b46eb3') in 0.012432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089744 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/drain 2 prefab.prefab
+  artifactKey: Guid(cc198c66ba240c946b6f10f40c60795a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/drain 2 prefab.prefab using Guid(cc198c66ba240c946b6f10f40c60795a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58b15c576445810d013ec4eeea1903c') in 0.014724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.658849 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/genderSign prefab.prefab
+  artifactKey: Guid(d26c86b8f16a194488b535078b5acc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/genderSign prefab.prefab using Guid(d26c86b8f16a194488b535078b5acc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f689d7514c9a43bf70a0d7175687eb6') in 0.010793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035296 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/lamp prefab.prefab
+  artifactKey: Guid(b2a07f71d1435654a9b5dc08935e815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/lamp prefab.prefab using Guid(b2a07f71d1435654a9b5dc08935e815d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb91d04882bfbdc0c1fb5b777e7fbee') in 0.007723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.176256 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/Metal door2x2 prefab.prefab
+  artifactKey: Guid(7cd75c2d90cf9d348a950fcf0bb0b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/Metal door2x2 prefab.prefab using Guid(7cd75c2d90cf9d348a950fcf0bb0b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af62f4cd957c5fa1b976d47962975f4') in 0.010066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.579068 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/office chair prefab.prefab
+  artifactKey: Guid(7b81ed1f1c3f906428cf7a2775eba745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/office chair prefab.prefab using Guid(7b81ed1f1c3f906428cf7a2775eba745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfae397baf6f07ea9df2a770ab465223') in 0.007543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.413710 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/Pot_tree prefab.prefab
+  artifactKey: Guid(8e00364320862a746a6e67a5af5e5979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/Pot_tree prefab.prefab using Guid(8e00364320862a746a6e67a5af5e5979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1409faacb947f6d4b7fdae5a296f1e7') in 0.012558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024004 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/Safe prefab.prefab
+  artifactKey: Guid(829d8b11465306b428baf10b3782ad28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/Safe prefab.prefab using Guid(829d8b11465306b428baf10b3782ad28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef114c791ecde259bda558207b854e54') in 0.008757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.798148 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/shop shelf prefab.prefab
+  artifactKey: Guid(f459a39cf0324c542a0c63d6d25e2ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/shop shelf prefab.prefab using Guid(f459a39cf0324c542a0c63d6d25e2ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e64db4b94ff53be60912e10e0a9e46e') in 0.013982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041640 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/Sideway 4 prefab.prefab
+  artifactKey: Guid(f24cfa7ea7c5c764dad9dddadf04cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/Sideway 4 prefab.prefab using Guid(f24cfa7ea7c5c764dad9dddadf04cde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e41bb82fbcbef2f1a10c9a7a20187a4') in 0.011996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.586046 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/Sideway 6 prefab.prefab
+  artifactKey: Guid(493d8fb14af461f45a7d50aaa60a7a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/Sideway 6 prefab.prefab using Guid(493d8fb14af461f45a7d50aaa60a7a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503ab25be7330c94e04678d3cba86bec') in 0.012384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018239 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/Sideway grey.prefab
+  artifactKey: Guid(278b2d88415ee124a8514a75acff4cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/Sideway grey.prefab using Guid(278b2d88415ee124a8514a75acff4cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab55a06cbb43831ecc1f9ff42ee68f2d') in 0.007387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011254 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/stoneway 1.prefab
+  artifactKey: Guid(f8d7a78846ea16e40a90f85d3e26d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/stoneway 1.prefab using Guid(f8d7a78846ea16e40a90f85d3e26d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88b24ab38dabdf9d149d4ed09c15e21') in 0.009043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075207 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/Street 1 Prefab.prefab
+  artifactKey: Guid(625d4ab1ce4723c449f165b8e7f27de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/Street 1 Prefab.prefab using Guid(625d4ab1ce4723c449f165b8e7f27de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f812c7ce09c0b5dc3d31abe8c51833') in 0.008144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.496227 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/street_lamp 1 prefab.prefab
+  artifactKey: Guid(6825a3fe8a1605f42a0d0589e582ac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/street_lamp 1 prefab.prefab using Guid(6825a3fe8a1605f42a0d0589e582ac40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26720e884b69bd8d77cb7f88305c638a') in 0.008569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018376 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/SupermarketSign prefab.prefab
+  artifactKey: Guid(803ed38c7969feb4b8c0e26c8f7266d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/SupermarketSign prefab.prefab using Guid(803ed38c7969feb4b8c0e26c8f7266d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b0b6e945adbe8ce4ce4c0b11c9168b') in 0.007440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.098952 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/Table prefab.prefab
+  artifactKey: Guid(3cc2a14dc05db3c4eadaeb2d9383cc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/Table prefab.prefab using Guid(3cc2a14dc05db3c4eadaeb2d9383cc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9afceee45dfe31c55de21a07bedac54') in 0.008207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.544009 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/toilet papper holer prefab.prefab
+  artifactKey: Guid(fc2701deb988bcb419c5faa12821b2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/toilet papper holer prefab.prefab using Guid(fc2701deb988bcb419c5faa12821b2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab2ae960cf811e5dbea7739af132be5') in 0.011338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023269 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/Tree prefab.prefab
+  artifactKey: Guid(1be61187b5d765449be824463642cb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/Tree prefab.prefab using Guid(1be61187b5d765449be824463642cb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e6d8a691bf7bc37003cf2b3e5f3f42') in 0.008132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044671 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/WalkWay 5 prefab.prefab
+  artifactKey: Guid(7446a392a730ac14d9cc70d21cf7ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/WalkWay 5 prefab.prefab using Guid(7446a392a730ac14d9cc70d21cf7ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c785da5b49d9ed217ad9f86e1ca2337d') in 0.009925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.631587 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/Windows 1.274 x 0.8247 prefab.prefab
+  artifactKey: Guid(4bdb885f73cc5194b8c5f3608a217832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/Windows 1.274 x 0.8247 prefab.prefab using Guid(4bdb885f73cc5194b8c5f3608a217832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad8f45f88614caead95ebbc44764a31') in 0.011665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014790 seconds.
+  path: Assets/Polygon zombie package/Supermarket prefab/Windows_1x0.6816 prefab.prefab
+  artifactKey: Guid(4447af317123d5647817a55bcf844061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/Supermarket prefab/Windows_1x0.6816 prefab.prefab using Guid(4447af317123d5647817a55bcf844061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e03a069e4645346f28e3bb6b35dbd31') in 0.010741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.327630 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie A.png
+  artifactKey: Guid(891f7fc3442029e49a2e02747f01cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie A.png using Guid(891f7fc3442029e49a2e02747f01cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1a5bfe1a749b66fe80b6f44f0c29d9') in 0.027691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/zombie B.fbx
+  artifactKey: Guid(2e154b8c67a6b2347b55532eeb7429da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/zombie B.fbx using Guid(2e154b8c67a6b2347b55532eeb7429da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1828bd00a14696ade25ed4d82395cb') in 0.082955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.067247 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/zombie c.fbx
+  artifactKey: Guid(78a58b1657d87bb4bb38e3c7c79bf30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/zombie c.fbx using Guid(78a58b1657d87bb4bb38e3c7c79bf30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89fd7418198ec0d959f6362a7449897') in 0.045095 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004227 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\senior-project-fall-2022-fps_zombie_game\SeniorProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\senior-project-fall-2022-fps_zombie_game\SeniorProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Domain Reload Profiling:
+	ReloadAssembly (759ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (577ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3531 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (1.0 MB). Loaded Objects now: 4170.
+Memory consumption went from 173.3 MB to 172.3 MB.
+Total: 3.733000 ms (FindLiveObjects: 0.688600 ms CreateObjectMapping: 0.151700 ms MarkObjects: 2.511300 ms  DeleteObjects: 0.380000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 504.583420 seconds.
+  path: Assets/Zombie/ZombieHQ_material1_Normal.png
+  artifactKey: Guid(3c364b9e825bbdf4fae1af569d4625c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieHQ_material1_Normal.png using Guid(3c364b9e825bbdf4fae1af569d4625c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83a020fde34a3747cc9da33d8c8f809') in 0.048721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Zombie/ZombieHQ_material2_AlbedoTransparency.png
+  artifactKey: Guid(6e9609c6db0464d4a8bd422bf2fcfa67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieHQ_material2_AlbedoTransparency.png using Guid(6e9609c6db0464d4a8bd422bf2fcfa67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89940b72e4553a00e05b4d7d74c3159b') in 0.007921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Zombie/ZombieHQ_material2_Ambient.png
+  artifactKey: Guid(a758fcce7530d564b9a37bab98695a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieHQ_material2_Ambient.png using Guid(a758fcce7530d564b9a37bab98695a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d997662003c7da6215e82e422909260') in 0.007781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.805305 seconds.
+  path: Assets/Zombie/ZombieHQ_material3_AlbedoTransparency.png
+  artifactKey: Guid(0681959c5e335c04693f0b935262bd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieHQ_material3_AlbedoTransparency.png using Guid(0681959c5e335c04693f0b935262bd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0841de45b123a187865ae9a0d8e0f82d') in 0.008098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083787 seconds.
+  path: Assets/Zombie/ZombieHQ_material3_Normal.png
+  artifactKey: Guid(e0bf1fec1bff6014f974eb150ea88a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieHQ_material3_Normal.png using Guid(e0bf1fec1bff6014f974eb150ea88a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8d34aff09bef2a12ffb92f64618cd9') in 0.008178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.717259 seconds.
+  path: Assets/Zombie/ZombieHQ_material4_Albedo.png
+  artifactKey: Guid(5f60206366258a44283d339cfc86fe36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieHQ_material4_Albedo.png using Guid(5f60206366258a44283d339cfc86fe36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f8b50be69a572dcb01d3f6a088e0e4') in 0.011390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022715 seconds.
+  path: Assets/Zombie/ZombieHQ_material4_Ambient.png
+  artifactKey: Guid(c69d72f6d7d8ce441bf3c62474f67ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieHQ_material4_Ambient.png using Guid(c69d72f6d7d8ce441bf3c62474f67ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afe7c7fde6e4e22a71f2dd4555d7c13') in 0.008150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013920 seconds.
+  path: Assets/Zombie/ZombieHQ_material4_SpecularSmoothness.png
+  artifactKey: Guid(93d91a99518976e46972d16af5434ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieHQ_material4_SpecularSmoothness.png using Guid(93d91a99518976e46972d16af5434ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f10fd0300917f15525c64f4e6e3b942') in 0.009210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054803 seconds.
+  path: Assets/Zombie/ZombieHQ_material5_Ambient.png
+  artifactKey: Guid(eb70aaf60ac05cc46bc17a6c29fa9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieHQ_material5_Ambient.png using Guid(eb70aaf60ac05cc46bc17a6c29fa9c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7308e541848465537129caa6af3b45f') in 0.010304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.493803 seconds.
+  path: Assets/Zombie/ZombieHQ_material5_SpecularSmoothness.png
+  artifactKey: Guid(e402fb688ec666544a7ef9df891ecce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieHQ_material5_SpecularSmoothness.png using Guid(e402fb688ec666544a7ef9df891ecce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36de5716299320bc76bc8f9f0d63fc91') in 0.021430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028558 seconds.
+  path: Assets/Zombie/ZombieRig.fbx
+  artifactKey: Guid(abfe6fc5a9b390a488839c1fc3b58dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieRig.fbx using Guid(abfe6fc5a9b390a488839c1fc3b58dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f8d452e59fc42af2ecd91353a7043e') in 0.364620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3174.005469 seconds.
+  path: Assets/MoveMotionPack/Res/AnimationFBX/Free_Walk/Basic_Run_01.FBX
+  artifactKey: Guid(a45573fdc100af3498260b45d9313ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoveMotionPack/Res/AnimationFBX/Free_Walk/Basic_Run_01.FBX using Guid(a45573fdc100af3498260b45d9313ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdccc2caddd528cc5f4a814b1b3ad47') in 0.091728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MoveMotionPack/Res/AnimationFBX/Free_Walk/Basic_Walk_02.FBX
+  artifactKey: Guid(442c71736cb4ba2409047ee6221b26c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoveMotionPack/Res/AnimationFBX/Free_Walk/Basic_Walk_02.FBX using Guid(442c71736cb4ba2409047ee6221b26c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517d1a5ed6712017e1cd5e8490221dfe') in 0.065162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MoveMotionPack/Res/AnimationFBX/Free_Walk/Etc_Walk_Zombi_01.FBX
+  artifactKey: Guid(b58097dd5357865408b7d6edb1ccc75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoveMotionPack/Res/AnimationFBX/Free_Walk/Etc_Walk_Zombi_01.FBX using Guid(b58097dd5357865408b7d6edb1ccc75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45552757c25e7920a3353f966841fdb') in 0.064656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.144738 seconds.
+  path: Assets/MoveMotionPack/Res/AnimationFBX/Free_Walk/Materials/04 - Default.mat
+  artifactKey: Guid(1d298ea322db8b148aee53717551e9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoveMotionPack/Res/AnimationFBX/Free_Walk/Materials/04 - Default.mat using Guid(1d298ea322db8b148aee53717551e9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7740ebe1633278d4dc06ed294dad222f') in 0.024047 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
