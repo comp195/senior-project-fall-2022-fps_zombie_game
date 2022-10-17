@@ -25,3 +25,4 @@ We created a new github repo for this project to pervent all the old error from 
 We each worked on a part of the project. This week, we have a working zombie, a score board, and guns with shooting functions. 
 However, this weekend, when we tried to push our works, there are more problem with the GitHub. Now we can't push some of 
 our progress to the repo.
+Calbin and Adil cannot push their codes to the repo for some reason.
