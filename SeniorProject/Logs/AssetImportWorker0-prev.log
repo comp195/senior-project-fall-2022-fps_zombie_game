@@ -15,7 +15,7 @@ C:/senior-project-fall-2022-fps_zombie_game/SeniorProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56646
+56699
 Successfully changed project path to: C:/senior-project-fall-2022-fps_zombie_game/SeniorProject
 C:/senior-project-fall-2022-fps_zombie_game/SeniorProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/senior-project-fall-2022-fps_zombie_game/SeniorProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 277.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 228.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.019020 seconds.
+Registered in 0.021848 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 322.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 266.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.949 seconds
+- Completed reload, in  1.884 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1949ms)
-		BeginReloadAssembly (265ms)
+	ReloadAssembly (1884ms)
+		BeginReloadAssembly (226ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1364ms)
-			LoadAssemblies (258ms)
+		EndReloadAssembly (1173ms)
+			LoadAssemblies (215ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (286ms)
+			SetupTypeCache (282ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (860ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (723ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (323ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (386ms)
-				ProcessInitializeOnLoadMethodAttributes (116ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (267ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (359ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.047350 seconds.
+Registered in 0.047937 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\senior-project-fall-2022-fps_zombie_game\SeniorProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\senior-project-fall-2022-fps_zombie_game\SeniorProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.977 seconds
+- Completed reload, in  2.907 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2981ms)
-		BeginReloadAssembly (329ms)
+	ReloadAssembly (2910ms)
+		BeginReloadAssembly (373ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (2321ms)
-			LoadAssemblies (226ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (2213ms)
+			LoadAssemblies (353ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (761ms)
+			SetupTypeCache (565ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (143ms)
-			SetupLoadedEditorAssemblies (1092ms)
+			RebuildScriptCaches (163ms)
+			SetupLoadedEditorAssemblies (1131ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (289ms)
-				ProcessInitializeOnLoadAttributes (694ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
-				AfterProcessingInitializeOnLoad (36ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (268ms)
+				ProcessInitializeOnLoadAttributes (726ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3628 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (0.5 MB). Loaded Objects now: 4114.
-Memory consumption went from 165.7 MB to 165.1 MB.
-Total: 5.669100 ms (FindLiveObjects: 0.295300 ms CreateObjectMapping: 0.210700 ms MarkObjects: 4.524300 ms  DeleteObjects: 0.637600 ms)
+Unloading 3645 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (407.6 KB). Loaded Objects now: 4125.
+Memory consumption went from 181.5 MB to 181.1 MB.
+Total: 4.029600 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.200600 ms MarkObjects: 3.266500 ms  DeleteObjects: 0.266300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,13 +159,743 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1778.773072 seconds.
-  path: Assets/Prefabs/FoodObject.prefab
-  artifactKey: Guid(060878a7ed6cf27478a397af5cb4be2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/FoodObject.prefab using Guid(060878a7ed6cf27478a397af5cb4be2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06f495edfecb680b1faef8516e9f75c') in 0.317017 seconds 
+  Time since last request: 92448.722475 seconds.
+  path: Assets/Low Poly Guns/Materials/Plane.mat
+  artifactKey: Guid(e96fa539506a82f4097ae5999f559460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Materials/Plane.mat using Guid(e96fa539506a82f4097ae5999f559460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489aaa9b8622b1984e3ef98783d7efe0') in 0.630980 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Prefabs/Zombie 1.prefab
-  artifactKey: Guid(18b846f8068671445b3b3a7fd10523b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Zombie 1.prefab using Guid(18b846f8068671445b3b3a7fd10523b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db26e43fd8400a067b511bc614bcc32') in 0.500956 seconds 
+  Time since last request: 4.282052 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault1
+  artifactKey: Guid(7938b61606cd85d47bc3ce4b39eeb65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault1 using Guid(7938b61606cd85d47bc3ce4b39eeb65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2285d35061544eff453e6b38a783330') in 0.004163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075030 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault1/assault1.fbx
+  artifactKey: Guid(33269b2b610f4c245a712795c1927939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault1/assault1.fbx using Guid(33269b2b610f4c245a712795c1927939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21253b42121d7bd7849ff5a5e9d2cf5e') in 0.233622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault1/assault1_normal.png
+  artifactKey: Guid(b5ce058bdf628bb4bb3304265b2ab7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault1/assault1_normal.png using Guid(b5ce058bdf628bb4bb3304265b2ab7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4054fd25d3933e14ade0b27a08d4ed') in 0.218198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault1/assault1_diffuse.png
+  artifactKey: Guid(89fc40a82916a0c449b689ff792cbaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault1/assault1_diffuse.png using Guid(89fc40a82916a0c449b689ff792cbaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f93f147943537a97638ffcc02c17d6') in 0.022849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 149.142665 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault2/assault2.fbx
+  artifactKey: Guid(6bea03a7115c5d748b18a7573d0d4d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault2/assault2.fbx using Guid(6bea03a7115c5d748b18a7573d0d4d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416c5fd66937869c1738651e916c44f3') in 0.050157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault2/assault2_normal.png
+  artifactKey: Guid(f682931156928fc4e960b020752b0c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault2/assault2_normal.png using Guid(f682931156928fc4e960b020752b0c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba22b6018287b4d93a192be5c27b685') in 0.022281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.391454 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault3/assault3.fbx
+  artifactKey: Guid(e525d5c90c0df01498dca09570cfb5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault3/assault3.fbx using Guid(e525d5c90c0df01498dca09570cfb5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8641d82190638610957429286dfb91') in 0.045097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault3/assault3_normal.png
+  artifactKey: Guid(246651ca5a975ad4998634d0c534516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault3/assault3_normal.png using Guid(246651ca5a975ad4998634d0c534516b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7061ea5c7deb818399d159f60f46ff') in 0.024479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.150090 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault4/assault4.fbx
+  artifactKey: Guid(ffb3f5f9531da764c906b0baf3285c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault4/assault4.fbx using Guid(ffb3f5f9531da764c906b0baf3285c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7d32eefecdf4e80c63e794122926db') in 0.048733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault4/assault4_normal.png
+  artifactKey: Guid(d5baff63e2303fd46998bc9b9fc03166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault4/assault4_normal.png using Guid(d5baff63e2303fd46998bc9b9fc03166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c82e740d4f4b0bdfb5b336a3982c7b') in 0.029457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.927890 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol1/pistol1.fbx
+  artifactKey: Guid(4df3ce82db8e66645afd54ab1d5b0262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol1/pistol1.fbx using Guid(4df3ce82db8e66645afd54ab1d5b0262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd366ecc27e2b0ef39c6300f5428ee4e') in 0.042556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol1/pistol1_diffuse.png
+  artifactKey: Guid(0d6b1249a62d53f4e8900c84722db1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol1/pistol1_diffuse.png using Guid(0d6b1249a62d53f4e8900c84722db1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dcc3b270455fad17e1206a605f5da2') in 0.025497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.311714 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol2/pistol2.fbx
+  artifactKey: Guid(8f9696fb6017be144a307b6586855ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol2/pistol2.fbx using Guid(8f9696fb6017be144a307b6586855ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59dee1769e50ac0e31aa679a644a4c9') in 0.043204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol2/pistol2_normal.png
+  artifactKey: Guid(c575c41cb696525499503e0d1142dd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol2/pistol2_normal.png using Guid(c575c41cb696525499503e0d1142dd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b1019276af1fcc5e7e8221c42488f5') in 0.028663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.716870 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol3/pistol3.fbx
+  artifactKey: Guid(726e329e1719c8f42949342e6a5b42e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol3/pistol3.fbx using Guid(726e329e1719c8f42949342e6a5b42e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21f90f038da4e4f2e178209747aa420') in 0.044163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol3/pistol3_diffuse.png
+  artifactKey: Guid(1ec9fe2fb7e61d24dbd51506576aa912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol3/pistol3_diffuse.png using Guid(1ec9fe2fb7e61d24dbd51506576aa912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747a9511fafa45ae7a6b90e7bd698a7f') in 0.018325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.834230 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol4/pistol4.fbx
+  artifactKey: Guid(ca1c64f7c147fb0479f9ef03e264a372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol4/pistol4.fbx using Guid(ca1c64f7c147fb0479f9ef03e264a372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c837d65a168ab485e9c8ad12ec9a9b') in 0.052600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol4/pistol4_normal.png
+  artifactKey: Guid(662ac7af64edac14388027a3cc79fe57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol4/pistol4_normal.png using Guid(662ac7af64edac14388027a3cc79fe57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccedc80663403860cb2c20f159a923b') in 0.027370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.579476 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/shotgun1/shotgun1.fbx
+  artifactKey: Guid(f62f7dc06bd890d4aab43b8fd635fe02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/shotgun1/shotgun1.fbx using Guid(f62f7dc06bd890d4aab43b8fd635fe02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfc7b565d80af7828a6b7ae862aadb8') in 0.039712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/shotgun1/shotgun1_normal.png
+  artifactKey: Guid(34ba857ac0ec86642b16ca7d9553e349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/shotgun1/shotgun1_normal.png using Guid(34ba857ac0ec86642b16ca7d9553e349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218ab325e02812bde3efedc90e24e704') in 0.034952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2728.876247 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/shotgun2/shotgun2.fbx
+  artifactKey: Guid(8b36fb41929fc22429f0083d817b8040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/shotgun2/shotgun2.fbx using Guid(8b36fb41929fc22429f0083d817b8040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ceeef0d9c1112fc9e7eeed0c3701d60') in 0.047271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/shotgun2/shotgun2_diffuse.png
+  artifactKey: Guid(e09185ed5b07b374a88f54491b40380d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/shotgun2/shotgun2_diffuse.png using Guid(e09185ed5b07b374a88f54491b40380d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39cdcfe53b88e97769b4561f10fb004e') in 0.037321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.252946 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/smg1/smg1.fbx
+  artifactKey: Guid(2cf10fa706c7a4d42b5927d8e730f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/smg1/smg1.fbx using Guid(2cf10fa706c7a4d42b5927d8e730f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ee01b5769d7afb2944d0ce64121a6c') in 0.050883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/smg1/smg1_diffuse.png
+  artifactKey: Guid(9ef818aed15542049ae0db5b3892e764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/smg1/smg1_diffuse.png using Guid(9ef818aed15542049ae0db5b3892e764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4938277605727247c804e916deb0c3c4') in 0.022372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 157.817283 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/smg2/smg2.fbx
+  artifactKey: Guid(a957639d15248134a9be03d5ae4fed7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/smg2/smg2.fbx using Guid(a957639d15248134a9be03d5ae4fed7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95325687a329c31b1a181e39dd83845') in 0.044496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/smg2/smg2_diffuse.png
+  artifactKey: Guid(caafdf2f2d129814f8694a90a23683d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/smg2/smg2_diffuse.png using Guid(caafdf2f2d129814f8694a90a23683d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd06eb9da87f26eb906c44ccde28ad1') in 0.020594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.554659 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/sniper1/sniper1.fbx
+  artifactKey: Guid(60d91f925d8c1e442bb6596dfb94ffff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/sniper1/sniper1.fbx using Guid(60d91f925d8c1e442bb6596dfb94ffff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd647ee242889bdcefb764163713b855') in 0.041182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/sniper1/sniper1_diffuse.png
+  artifactKey: Guid(97916b008521df7409ff55d6033c520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/sniper1/sniper1_diffuse.png using Guid(97916b008521df7409ff55d6033c520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3506ea289ad498c4716e741a462f7ad1') in 0.022381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.526557 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/sniper2/sniper2.fbx
+  artifactKey: Guid(c8573db8e30e916479a705831bd5040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/sniper2/sniper2.fbx using Guid(c8573db8e30e916479a705831bd5040c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ededffc828591b37b8f76f4b9ddd3a') in 0.046871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/sniper2/sniper2_diffuse.png
+  artifactKey: Guid(7274816d1b008604384326cffc88cbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/sniper2/sniper2_diffuse.png using Guid(7274816d1b008604384326cffc88cbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4b8ed32eedfeac99dbcf5a60d5c715') in 0.023784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1224.300077 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(00eed0280d83daa49a31fc51f60c40c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(00eed0280d83daa49a31fc51f60c40c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d72cf9b2e2efcbd258ce1be69ce838') in 0.097593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(12fa55a1ce46f2e4a900f50de9f7b13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(12fa55a1ce46f2e4a900f50de9f7b13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fcf922be5e3b4bb82aee9eda47f55c') in 0.035899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.630614 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Windows no light.mat
+  artifactKey: Guid(26df91506bf83b343b8083c5322323ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Windows no light.mat using Guid(26df91506bf83b343b8083c5322323ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3af4144e5f67a2c0f44af53fa7adb3') in 0.026597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Standard Assets/Prototyping/Materials/YellowGrid.mat
+  artifactKey: Guid(82096aab38f01cb40a1cbf8629a810ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Materials/YellowGrid.mat using Guid(82096aab38f01cb40a1cbf8629a810ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87c7dbf3277e51fdba2e27a204dd4be') in 0.570638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/materials/Zombie E.mat
+  artifactKey: Guid(2086a28f45a5c024c923bc68f3f73560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/materials/Zombie E.mat using Guid(2086a28f45a5c024c923bc68f3f73560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea12cb342ec7828a90a1956e0426974') in 0.573690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/wood.mat
+  artifactKey: Guid(6dc7d56be81a8364094bc310cedf9876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/wood.mat using Guid(6dc7d56be81a8364094bc310cedf9876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a006d06b658302747dbb5407ec001549') in 0.017947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/MoveMotionPack/Res/AnimationFBX/Root/Materials/癒몃━.mat
+  artifactKey: Guid(57509892134121f4980fd3634278a0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoveMotionPack/Res/AnimationFBX/Root/Materials/癒몃━.mat using Guid(57509892134121f4980fd3634278a0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694cb3c313308e472b84caf871fb482e') in 0.213274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/materials/Zombie  K.mat
+  artifactKey: Guid(f6438b7ebabfd364cb0409725773e08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/materials/Zombie  K.mat using Guid(f6438b7ebabfd364cb0409725773e08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4fcce06cd51b41afc1082f73b60aaf') in 0.022838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/wood chair.mat
+  artifactKey: Guid(a150a7e1a9c84bd45a780abaf31c5e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/wood chair.mat using Guid(a150a7e1a9c84bd45a780abaf31c5e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda1c5ea5b08e93b25fea78480139101') in 0.019226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie J.fbx
+  artifactKey: Guid(f33712da9292b0d44aecc6b60d9a0589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie J.fbx using Guid(f33712da9292b0d44aecc6b60d9a0589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08da936683899182692dd7f0756e477') in 0.093782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/materials/Zombie D 1.mat
+  artifactKey: Guid(a4c457dd32fc1634c85e3ad3d985675d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/materials/Zombie D 1.mat using Guid(a4c457dd32fc1634c85e3ad3d985675d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd10ced6cf36fc7f7f644432c1c1c00e') in 0.024625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/materials/Zombie N.mat
+  artifactKey: Guid(a8120203da71afb4b96ab9275ab08dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/materials/Zombie N.mat using Guid(a8120203da71afb4b96ab9275ab08dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0315f08990022eddc97861bc767b5c') in 0.026714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/materials/Zombie F 1.mat
+  artifactKey: Guid(d3d570e53aba10f48982c71b0c6ef0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/materials/Zombie F 1.mat using Guid(d3d570e53aba10f48982c71b0c6ef0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf04b33eb51fc778d9cbfc50a89c774') in 0.024505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/materials/Zombie F.mat
+  artifactKey: Guid(8f5b90d17c89bf249b93532efbaa9f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/materials/Zombie F.mat using Guid(8f5b90d17c89bf249b93532efbaa9f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8713d467c7adcb8251ebd5f49458ab14') in 0.028248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/materials/Zombie J 1.mat
+  artifactKey: Guid(55d74e5874e6a3a4d81c4e6f3ce5da50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/materials/Zombie J 1.mat using Guid(55d74e5874e6a3a4d81c4e6f3ce5da50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c2fed7e3d41bb5c431771c6e132e71') in 0.023987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/materials/Zombie  M.mat
+  artifactKey: Guid(6b02b7e4ec071ac48b035f990c8a3237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/materials/Zombie  M.mat using Guid(6b02b7e4ec071ac48b035f990c8a3237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e173cc4eab15629d71cb0f1b969f4243') in 0.027369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/materials/Zombie C 1.mat
+  artifactKey: Guid(d2b03ae1656658b41926d16663eccdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/materials/Zombie C 1.mat using Guid(d2b03ae1656658b41926d16663eccdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bc2685e8dc18ea1722c6b0eb1f0778') in 0.024021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/materials/Zombie  N.mat
+  artifactKey: Guid(986bcc161dc863748b7ad723da03cfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/materials/Zombie  N.mat using Guid(986bcc161dc863748b7ad723da03cfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33572aff597f22ef9077371b1951975d') in 0.027453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Zombie/Materials/ZombieHQ_material_AlbedoTransparency.mat
+  artifactKey: Guid(11deda9a2ce04bf47a65f12b3fe4f41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Materials/ZombieHQ_material_AlbedoTransparency.mat using Guid(11deda9a2ce04bf47a65f12b3fe4f41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e7a40cc0c12912afca38fde37ddc9b') in 0.031691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/materials/Zombie O.mat
+  artifactKey: Guid(6efb9c365f865ba44aed9b9dd61a9273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/materials/Zombie O.mat using Guid(6efb9c365f865ba44aed9b9dd61a9273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ebb5e7d5f552a6807a8f5fd705f991') in 0.025730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Standard Assets/Prototyping/Materials/YellowSmooth.mat
+  artifactKey: Guid(6e1d36c4bbd37d54f9ea183e4f5fd656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Materials/YellowSmooth.mat using Guid(6e1d36c4bbd37d54f9ea183e4f5fd656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f1394725767c88cca5e24a95816fcd') in 0.023657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MoveMotionPack/Res/AnimationFBX/Root/Materials/하체.mat
+  artifactKey: Guid(e113b0b80aac0ec4a8bdeb4fbbb2cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoveMotionPack/Res/AnimationFBX/Root/Materials/하체.mat using Guid(e113b0b80aac0ec4a8bdeb4fbbb2cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf87e385262e7577ea979637cb7c0cd4') in 0.022583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Zombie/Materials/ZombieHQ_material5_AlbedoTransparency.mat
+  artifactKey: Guid(8037d301b260d214fbea59e83e088904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Materials/ZombieHQ_material5_AlbedoTransparency.mat using Guid(8037d301b260d214fbea59e83e088904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f612263f882ce2a94087ba0a96ac4581') in 0.035726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.644746 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/table.mat
+  artifactKey: Guid(84a17f35fa03fda4eb9c866492149cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/table.mat using Guid(84a17f35fa03fda4eb9c866492149cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99521d380042bfb039d665cdcafada5') in 0.031386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/MoveMotionPack/SampleScene/CharacterFBX/Teddy/Materials/Teddy_Eye.mat
+  artifactKey: Guid(34604f31e7357c640bccb727ace0f411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoveMotionPack/SampleScene/CharacterFBX/Teddy/Materials/Teddy_Eye.mat using Guid(34604f31e7357c640bccb727ace0f411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dceb8d3f99dbb87a0ad20100a1d9b257') in 0.202981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/Toilet.mat
+  artifactKey: Guid(a738f1a22a9b71b4c843e77a209b3e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/Toilet.mat using Guid(a738f1a22a9b71b4c843e77a209b3e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a9f1fe7d4cd71e29a1c6021e3fd020') in 0.020333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat
+  artifactKey: Guid(84b9e1d19d11078d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/ToonShading/Materials/ToonBasic.mat using Guid(84b9e1d19d11078d11005b9844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48c841c2fcb8b4e6b9f312b1ed6bcea') in 0.026111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicDaytime.mat
+  artifactKey: Guid(52b7d70b1de7c4ce09662b77c14d9fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicDaytime.mat using Guid(52b7d70b1de7c4ce09662b77c14d9fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf046fccc9d14a62d07f53e97447af16') in 0.028836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat
+  artifactKey: Guid(7350b65a6431f604a8496c39db1ac9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat using Guid(7350b65a6431f604a8496c39db1ac9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d82ea2abd2f5a347edaf1c46b14520') in 0.027520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/trash bag.mat
+  artifactKey: Guid(28aaaa7158f5c27459c79a572d898518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/trash bag.mat using Guid(28aaaa7158f5c27459c79a572d898518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df60f59eea76af9f01f8fa108241be94') in 0.022426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water/Materials/WaterPlaneMaterial.mat
+  artifactKey: Guid(f1bc741ea0e69a241896582ddb633d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water/Water/Materials/WaterPlaneMaterial.mat using Guid(f1bc741ea0e69a241896582ddb633d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0e891ab09cb7d23fa3e73ce52152b6') in 0.026044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MoveMotionPack/SampleScene/CharacterFBX/U_Character/Materials/U_Char_Eye_DIF.mat
+  artifactKey: Guid(1df4fadf17c21d245a75f30ce214801b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoveMotionPack/SampleScene/CharacterFBX/U_Character/Materials/U_Char_Eye_DIF.mat using Guid(1df4fadf17c21d245a75f30ce214801b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6627791159935c1740c7196d433bf585') in 0.024417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Standard Assets/Effects/ToonShading/Materials/ToonLit.mat
+  artifactKey: Guid(c9e6294c9d11cb8d11006bf944295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/ToonShading/Materials/ToonLit.mat using Guid(c9e6294c9d11cb8d11006bf944295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1dc16db3128b1c1585dc2cecbafba37') in 0.207976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/Stone.mat
+  artifactKey: Guid(e9a233fb56a44b04d885b73c26bcbde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/Stone.mat using Guid(e9a233fb56a44b04d885b73c26bcbde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3695b2b024b4b7a154c58bf5cd46cff') in 0.012914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/Street.006.mat
+  artifactKey: Guid(b30423b33e764904eb0395aa7ee829b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/Street.006.mat using Guid(b30423b33e764904eb0395aa7ee829b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f214c46c7f7ff921755b148a1bf3bf') in 0.014391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MoveMotionPack/SampleScene/CharacterFBX/Teddy2/Materials/TeddyBear_color.mat
+  artifactKey: Guid(f5294d661371a4446a8ef1d6690b5f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoveMotionPack/SampleScene/CharacterFBX/Teddy2/Materials/TeddyBear_color.mat using Guid(f5294d661371a4446a8ef1d6690b5f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583fb31efdb889aca22aeab15cd76fb5') in 0.217012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/SideWalk.005.mat
+  artifactKey: Guid(bb213953bfcb1fb42b4b93a668034ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/SideWalk.005.mat using Guid(bb213953bfcb1fb42b4b93a668034ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf747712f7a015ab4ddd09762f0724f') in 0.016281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleSteam.mat
+  artifactKey: Guid(60d4adad90a8b164abbb7d8ff5b4118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleSteam.mat using Guid(60d4adad90a8b164abbb7d8ff5b4118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc7d3fc0493b6e65465935552276ce5') in 0.068775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/Pot.mat
+  artifactKey: Guid(ccf152090ae497248b7cdfd0000017b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/Pot.mat using Guid(ccf152090ae497248b7cdfd0000017b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2292a0f927f66ed90f4ab27402bd7ff5') in 0.019403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleWaterSpray.mat
+  artifactKey: Guid(09a99b10658931c46a438c586a49ec65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleWaterSpray.mat using Guid(09a99b10658931c46a438c586a49ec65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b259cb3ef459bb3ed38420cdc1444a66') in 0.018615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleSteamMobile.mat
+  artifactKey: Guid(ed1b89d39279f564ea077ad8e46f3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleSteamMobile.mat using Guid(ed1b89d39279f564ea077ad8e46f3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce5f18eb0b0109cc9027005564da575') in 0.046719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeWhite.mat
+  artifactKey: Guid(c50d77affeb31e14c9c062c282f13fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeWhite.mat using Guid(c50d77affeb31e14c9c062c282f13fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24152d69cf2c10777c3edfa2d38f11c') in 0.045020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat
+  artifactKey: Guid(4b5dce0492bdfb648a389fe390071625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallWhite.mat using Guid(4b5dce0492bdfb648a389fe390071625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c819e3e65b3eb1b0c08cc7deb4e91ec') in 0.022401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/Shop shelf.mat
+  artifactKey: Guid(cc7bbc1b55e97b7439128619b4470da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/Shop shelf.mat using Guid(cc7bbc1b55e97b7439128619b4470da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6149a95c7330c51d18278efad2ca7f4') in 0.029432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Zombie/Materials/RetopoPantsUV_TXTR.mat
+  artifactKey: Guid(69f7719c2bd8a6540bb130ebffc99fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Materials/RetopoPantsUV_TXTR.mat using Guid(69f7719c2bd8a6540bb130ebffc99fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91e7d0564684200b818d317edd3d12c') in 0.029240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleSpray.mat
+  artifactKey: Guid(3062613153ea47f42a262f065fec69d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleSpray.mat using Guid(3062613153ea47f42a262f065fec69d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34aaf890ee69e75bf1d01ef99f4ed9e9') in 0.022496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat
+  artifactKey: Guid(6fd099d339b4ae34692c8258e4f87531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/RollerBall/Materials/RollerBallGrey.mat using Guid(6fd099d339b4ae34692c8258e4f87531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1140e10e36eede98e41cd42ababcba3') in 0.021999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa731aceb9e14cf355d868dbeaa507e9') in 0.054770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/Toilet papper holder.mat
+  artifactKey: Guid(f50f5a2d75066464d8af686a6769aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/Toilet papper holder.mat using Guid(f50f5a2d75066464d8af686a6769aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237aca97f95bc6c7bec14acbb84f1296') in 0.028088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/safe.mat
+  artifactKey: Guid(daadfbeadfa06b24e8c799840e6aed29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/safe.mat using Guid(daadfbeadfa06b24e8c799840e6aed29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6d2f473da5e617770c08045973decd') in 0.026663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/SideWalk.006.mat
+  artifactKey: Guid(ca5f7af98e6519f458b5985979a3b2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/SideWalk.006.mat using Guid(ca5f7af98e6519f458b5985979a3b2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0b2d9e6675d2cb8bde7cde67bd4d15') in 0.023105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/window 1x0.6816.mat
+  artifactKey: Guid(692d2f1917550bb458343574ee6c304f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/window 1x0.6816.mat using Guid(692d2f1917550bb458343574ee6c304f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1bb81683e92cf7c001734da2001a49') in 0.024840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
+  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc347c2d031543e77a4cbc6a416215b') in 0.224824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/Street.mat
+  artifactKey: Guid(c6edae78128465f41a3b95724d5fbb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/Street.mat using Guid(c6edae78128465f41a3b95724d5fbb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ef5af98085415d830a66e40a960263') in 0.023374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat
+  artifactKey: Guid(a3384ef3e2313034f9016ad8a1f3999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat using Guid(a3384ef3e2313034f9016ad8a1f3999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0462d436acf6425f168b2088cf39a8') in 0.031154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/Wall in.mat
+  artifactKey: Guid(dc134d4cab4525945b8c83608b11e179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/Wall in.mat using Guid(dc134d4cab4525945b8c83608b11e179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc1d3c17252412a6f563acd2c5b1d65') in 0.024338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/Sideway.005.mat
+  artifactKey: Guid(471e946fb7fdba342aa758abe9d60044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/Sideway.005.mat using Guid(471e946fb7fdba342aa758abe9d60044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b62a024088c572b4c5a56d3bc232fed') in 0.019858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/trashbag.mat
+  artifactKey: Guid(920171991f9b62c41b9f2b275bd5e169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/trashbag.mat using Guid(920171991f9b62c41b9f2b275bd5e169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869e0d72381f6d13b348f94fd624d616') in 0.027294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water/Materials/WaterProNighttime.mat
+  artifactKey: Guid(e633a20421c47426aa04444234225b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water/Water/Materials/WaterProNighttime.mat using Guid(e633a20421c47426aa04444234225b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d21e5a4e13cef77f5b6d22dd610ee89') in 0.028503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/Windows light 1.mat
+  artifactKey: Guid(d7636558dbd50f7429a53d5bc6352a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/Windows light 1.mat using Guid(d7636558dbd50f7429a53d5bc6352a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c894e0fdad50123e05451b1858a2a7ab') in 0.021423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat
+  artifactKey: Guid(a5f2339f242f6cc41a982ec55ea3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat using Guid(a5f2339f242f6cc41a982ec55ea3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea0e0bf8ea6055d05e48eba932f0e8c') in 0.027602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ae80c6fa319700540a0cd1a40daba5') in 0.038407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularDisplacement.mat
+  artifactKey: Guid(26d8bdbc8646bde48b05fbaacaaa6577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularDisplacement.mat using Guid(26d8bdbc8646bde48b05fbaacaaa6577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76ac96fe51f269c224d29eead050d5a') in 0.629204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/Toilet_Floor.mat
+  artifactKey: Guid(a886fe82975a1cb46a324d29df942d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/Toilet_Floor.mat using Guid(a886fe82975a1cb46a324d29df942d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af46b02ba679e194649d339ef87b82c') in 0.023249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterDefault.mat
+  artifactKey: Guid(30abebfd9bf1c49d8a2d26e61e66bc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterDefault.mat using Guid(30abebfd9bf1c49d8a2d26e61e66bc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ae36a0d4dfe764c0e36d98807f2e52') in 0.022690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/office chair.mat
+  artifactKey: Guid(0f5c2973016a0aa43ba3f0277e3c85c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/office chair.mat using Guid(0f5c2973016a0aa43ba3f0277e3c85c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d6ccd22966d622fc1dc1314514d00e') in 0.026268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat
+  artifactKey: Guid(fc626cffedc907848a7b47b87aa5e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat using Guid(fc626cffedc907848a7b47b87aa5e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eab06fc9fd54cb5abd141d289b513ca') in 0.059533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/No Name.mat
+  artifactKey: Guid(c3c67989520cc124ebf2f6e33dcab3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/No Name.mat using Guid(c3c67989520cc124ebf2f6e33dcab3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26683fb73a7afa9946abd42c446cd102') in 0.017275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/metal door.mat
+  artifactKey: Guid(365c8325bd5ec114a9cb1dcf5e170191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/metal door.mat using Guid(365c8325bd5ec114a9cb1dcf5e170191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368658352c1f8aa140201717c200848d') in 0.017531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/metal 2.mat
+  artifactKey: Guid(182121772ba121045ab456d8fe520e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/metal 2.mat using Guid(182121772ba121045ab456d8fe520e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0469daff5ea75347fb5df142b8a97baa') in 0.019885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleFlameLicks.mat
+  artifactKey: Guid(30289309b0c21224ea5b6fcc73b07d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleFlameLicks.mat using Guid(30289309b0c21224ea5b6fcc73b07d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480345684c12d99921a829fce35efebb') in 0.024877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/medic box.mat
+  artifactKey: Guid(476858adc771b1943bd1bbb7951db95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/medic box.mat using Guid(476858adc771b1943bd1bbb7951db95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c988af6a47084d4a1ca6fef61b97b686') in 0.021799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/medic box.fbx
+  artifactKey: Guid(abf70a5191de8ab46b4503c7e4b01058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/medic box.fbx using Guid(abf70a5191de8ab46b4503c7e4b01058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652694cc763e41eb6a6d56a5f1e804af') in 0.072570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/Zombie M.fbx
+  artifactKey: Guid(fa5d653a4f9f9a84389c38c7a69767a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/Zombie M.fbx using Guid(fa5d653a4f9f9a84389c38c7a69767a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7a095df665750e5e5e9fb97d161a0e') in 0.552142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/carton 5.fbx
+  artifactKey: Guid(e838cdf247895924591fafaf7b8d90b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/carton 5.fbx using Guid(e838cdf247895924591fafaf7b8d90b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e0c964bbc79416554a938ba02aabec') in 0.036494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Zombie/Materials/material.003.mat
+  artifactKey: Guid(d56403f38c9dac8488e18148e65a9df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Materials/material.003.mat using Guid(d56403f38c9dac8488e18148e65a9df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ee5849e0c62f303def49892560ba0d') in 0.026343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/carton 3.fbx
+  artifactKey: Guid(3d9c3f7074ca51346ba0070c725436df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/carton 3.fbx using Guid(3d9c3f7074ca51346ba0070c725436df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4372c84cf47d92eb5783c8970fdcf610') in 0.051582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Standard Assets/Prototyping/Materials/NavySmooth.mat
+  artifactKey: Guid(1032d41f900276c40a9dd24f55b7d420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Prototyping/Materials/NavySmooth.mat using Guid(1032d41f900276c40a9dd24f55b7d420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d1ea31d550424f40299f652d854760') in 0.233216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/shelf.fbx
+  artifactKey: Guid(bb0ce4a966b8b4c488d9904a6636b8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/shelf.fbx using Guid(bb0ce4a966b8b4c488d9904a6636b8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d185d0ede9aa4bf0435e7d3f51d80e3') in 0.042187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Grid window 1.2 x 0.8.fbx
+  artifactKey: Guid(c83b2611df1d4fd42b2948386012315a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Grid window 1.2 x 0.8.fbx using Guid(c83b2611df1d4fd42b2948386012315a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76cf8dcdb9bc8eec68a04048de7ddf2') in 0.039269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Windows.fbx
+  artifactKey: Guid(992de679fa1f1d44294f387158dc0519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Windows.fbx using Guid(992de679fa1f1d44294f387158dc0519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60802d5cd4c7b7793911ed917b8cab0') in 0.033246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/carton 4.fbx
+  artifactKey: Guid(bfae571d6ce066640a486fe5074d68c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/carton 4.fbx using Guid(bfae571d6ce066640a486fe5074d68c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51227fc41f5ebd21802af3b3ce7b0bc3') in 0.032922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Shop shelf.mat
+  artifactKey: Guid(167c48a2d852e7949bdc215dbae40a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Shop shelf.mat using Guid(167c48a2d852e7949bdc215dbae40a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd10549caa6869faa8c712dfb4240e9') in 0.024216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleFirework.mat
+  artifactKey: Guid(9f3080141f1f64197825663e067f94f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleFirework.mat using Guid(9f3080141f1f64197825663e067f94f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c677e4185fd6ef0969c1979eec325e00') in 0.023062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicNighttime.mat
+  artifactKey: Guid(c55afdc4a8a3b4890b07cc7d176510bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicNighttime.mat using Guid(c55afdc4a8a3b4890b07cc7d176510bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ce37221e81fb4455b0b89e90e400eb') in 0.025223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/ware house shelf.fbx
+  artifactKey: Guid(90eb21ab11f5e5c4980eb48370f62863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/ware house shelf.fbx using Guid(90eb21ab11f5e5c4980eb48370f62863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069b47b7758102abc8ef96bf9f66ea72') in 0.049730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/shopping cart.mat
+  artifactKey: Guid(6f9e936f7882193458b7205f066d95dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/shopping cart.mat using Guid(6f9e936f7882193458b7205f066d95dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3169815fe451519693ece594818f94') in 0.218677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Simple.mat
+  artifactKey: Guid(656fde119942645aa8e062e04c119aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Simple.mat using Guid(656fde119942645aa8e062e04c119aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f77a96bf5e4e650cb8838f5b9bb95ae') in 0.013655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/SideWalk.013.mat
+  artifactKey: Guid(d137d4f9d0dbd394fb8d7264d61aac71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/Materials/SideWalk.013.mat using Guid(d137d4f9d0dbd394fb8d7264d61aac71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccecb7715a6f853a7614bc409652e83') in 0.018955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleSpark.mat
+  artifactKey: Guid(f63c576739a709747a1a571260d4fabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleSpark.mat using Guid(f63c576739a709747a1a571260d4fabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb52890d9ecb6db083727473d6c5fa18') in 0.024658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Materials/ParticleAfterburner.mat
+  artifactKey: Guid(89ff19d667a6a5d4bb76df1fcb718402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Materials/ParticleAfterburner.mat using Guid(89ff19d667a6a5d4bb76df1fcb718402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476ed5894f321e5d682d03bba0f987ac') in 0.023525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/Scanner.mat
+  artifactKey: Guid(8f7f8ac1b5e4ab748a230f0e883e5839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygon zombie package/mesh.texture/supermarket mesh,texture/materals/Scanner.mat using Guid(8f7f8ac1b5e4ab748a230f0e883e5839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e065aa230689953774768f023d68539b') in 0.025006 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Pistol1Controller : MonoBehaviour
 {
-    public float damage = 10;
+    public float damage = 55;
         public float range = 100;
         public Camera fpsCam;
-        public float fireRate = 15;
+        public float fireRate = 1;
+        [SerializeField] public TextMeshProUGUI ammo;
     
         [SerializeField] public GameObject Crosshair;
         public ParticleSystem muzzleflash;
@@ -32,12 +34,19 @@ public class Pistol1Controller : MonoBehaviour
         // Update is called once per frame
         void Update()
         {
+            ammo.SetText(AmmoCount + "/" + MaxAmmo);
             
             if (Input.GetButtonDown("Fire1") && Time.time >= nextTimeToFire)
             {
-                nextTimeToFire = Time.time + 2f / fireRate;
-                AddRecoil();
-                Shoot();
+                if (AmmoCount > 0 )
+                {
+                    nextTimeToFire = Time.time + fireRate;
+                    AddRecoil();
+                    AmmoCount--; 
+                    Shoot();
+                    
+                }
+                
             }
             if (Input.GetButtonUp("Fire1"))
             {
