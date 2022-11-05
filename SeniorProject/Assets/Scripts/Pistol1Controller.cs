@@ -20,6 +20,9 @@ public class Pistol1Controller : MonoBehaviour
         public int AmmoCount = 6;
         public Vector3 Recoil;
         private Vector3 orignalRotation;
+        [SerializeField] private Transform bulletPoint;
+        [SerializeField] private LayerMask enemylayer;
+        
         
         // Start is called before the first frame update
         void Start()
@@ -29,12 +32,13 @@ public class Pistol1Controller : MonoBehaviour
             {
                 Crosshair.SetActive(true);
             }
+            ammo.SetText(AmmoCount + "/" + MaxAmmo);
         }
     
         // Update is called once per frame
         void Update()
         {
-            ammo.SetText(AmmoCount + "/" + MaxAmmo);
+            
             
             if (Input.GetButtonDown("Fire1") && Time.time >= nextTimeToFire)
             {
@@ -44,7 +48,7 @@ public class Pistol1Controller : MonoBehaviour
                     AddRecoil();
                     AmmoCount--; 
                     Shoot();
-                    
+                    ammo.SetText(AmmoCount + "/" + MaxAmmo);
                 }
                 
             }
@@ -58,17 +62,17 @@ public class Pistol1Controller : MonoBehaviour
         
         void Shoot()
         {
+            Ray ray = new Ray();
+            ray.origin = bulletPoint.position;
+            ray.direction = bulletPoint.TransformDirection(Vector3.forward);
             muzzleflash.Play();
             RaycastHit hit;
-            if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
+            Debug.DrawRay(ray.origin,ray.direction*range,Color.yellow);
+            if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range, enemylayer))
             {
-                Debug.Log(hit.transform.name);
-    
-                GraphicsBuffer.Target target = hit.transform.GetComponent<GraphicsBuffer.Target>();
-                if (target != null)
-                {
-                    //target.takeDamage(damage);
-                }
+                
+                var healthCtrl = hit.collider.GetComponent<EnemyController>();
+                healthCtrl.takeDamage(damage);
             }
         }
     
