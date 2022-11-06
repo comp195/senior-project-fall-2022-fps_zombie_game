@@ -10,6 +10,7 @@ public class GameScript : MonoBehaviour
 {
 
     [SerializeField] public GameObject StartScreen; // startscreen 
+    [SerializeField] public GameObject GameOverScreen; // game over
 
     [SerializeField] private GameObject Food;
 
@@ -17,7 +18,7 @@ public class GameScript : MonoBehaviour
     private float itemscollected; // number of food items collected 
 
     private float current_time = 0f; //to hold the current time 
-    private float starting_Time = 120f; //  starting time for the Game being 120 seconds which is 2 mins
+    [SerializeField]private float starting_Time = 120f; //  starting time for the Game being 120 seconds which is 2 mins
     [SerializeField] TextMeshProUGUI countdownText; // UI on screen to display time
     private string msgPrefix; // to display Time: 120s
     
@@ -27,8 +28,9 @@ public class GameScript : MonoBehaviour
     {
         itemscollected = 0;
         totalFood = Food.transform.childCount;
-        StartScreen.SetActive(false);
-        Time.timeScale=1; // game paused
+        StartScreen.SetActive(true);
+        GameOverScreen.SetActive(false);
+        Time.timeScale=0; // game paused
         current_time = starting_Time; // time set to 120 seconds at the start
         msgPrefix = "Time: ";
     }
@@ -39,6 +41,13 @@ public class GameScript : MonoBehaviour
         
         current_time -= 1 * Time.deltaTime; // time updated each frame, which is subtracted by 1 second per frame
         countdownText.SetText(msgPrefix + (current_time));
+
+        if (current_time <= 0)
+        {
+            current_time = 0;
+            GameOverScreen.SetActive(true);
+            Time.timeScale = 0;
+        }
         
         
         
@@ -54,6 +63,16 @@ public class GameScript : MonoBehaviour
     {
         Time.timeScale = 1;
         StartScreen.SetActive(false); // game unpaused
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene("Level-1");
+    }
+
+    public void MainMenu()
+    {
+        StartScreen.SetActive(true);
     }
 
     float numItemsCollected()
