@@ -11,7 +11,6 @@ public class GameScript : MonoBehaviour
 
     [SerializeField] public GameObject StartScreen; // startscreen 
     [SerializeField] public GameObject GameOverScreen; // game over
-
     [SerializeField] private GameObject Food;
 
     private int totalFood; //Total food remaining
@@ -68,6 +67,7 @@ public class GameScript : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene("Level-1");
+        StartScreen.SetActive(false);
     }
 
     public void MainMenu()
