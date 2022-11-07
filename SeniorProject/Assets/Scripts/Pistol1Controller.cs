@@ -10,16 +10,19 @@ public class Pistol1Controller : MonoBehaviour
         public Camera fpsCam;
         public float fireRate = 1;
         [SerializeField] public TextMeshProUGUI ammo;
-    
+
         [SerializeField] public GameObject Crosshair;
         public ParticleSystem muzzleflash;
     
         private float nextTimeToFire = 0f;
+        private bool isReloading = false;
     
         public int MaxAmmo = 6;
         public int AmmoCount = 6;
         public Vector3 Recoil;
         private Vector3 orignalRotation;
+        [SerializeField] public Vector3 reloadRotation;
+        public float reloadTime = 3;
         [SerializeField] private Transform bulletPoint;
         [SerializeField] private LayerMask enemylayer;
         
@@ -28,6 +31,7 @@ public class Pistol1Controller : MonoBehaviour
         void Start()
         {
             orignalRotation = transform.localEulerAngles;
+            
             if (gameObject.isStatic)
             {
                 Crosshair.SetActive(true);
@@ -38,7 +42,20 @@ public class Pistol1Controller : MonoBehaviour
         // Update is called once per frame
         void Update()
         {
-            
+            if (Input.GetKeyDown("r")&& Time.time >= nextTimeToFire)
+            {
+                nextTimeToFire = Time.time + reloadTime;
+                transform.localEulerAngles += reloadRotation;
+                isReloading = true;
+            }
+
+            if (isReloading == true && Time.time >= nextTimeToFire)
+            {
+                transform.localEulerAngles = orignalRotation;
+                AmmoCount = MaxAmmo;
+                ammo.SetText(AmmoCount + "/" + MaxAmmo);
+                isReloading = false;
+            }
             
             if (Input.GetButtonDown("Fire1") && Time.time >= nextTimeToFire)
             {
@@ -84,5 +101,13 @@ public class Pistol1Controller : MonoBehaviour
         private void StopRecoil()
         {
             transform.localEulerAngles = orignalRotation;
+        }
+
+        void Reload()
+        {
+            
+            
+            
+            
         }
 }
