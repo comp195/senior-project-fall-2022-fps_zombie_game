@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -21,6 +22,12 @@ public class GameScript : MonoBehaviour
     [SerializeField] TextMeshProUGUI countdownText; // UI on screen to display time
     private string msgPrefix; // to display Time: 120s
     
+    private int xPos; // to get position of enemy
+    private int zPos; // enemy position
+    private int enemycount;
+
+    [SerializeField] private GameObject Enemy; // refrence to enemy
+    
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +39,7 @@ public class GameScript : MonoBehaviour
         Time.timeScale=0; // game paused
         current_time = starting_Time; // time set to 120 seconds at the start
         msgPrefix = "Time: ";
+        StartCoroutine(EnemySpawn()); // to spawn enemies in random locations
     }
 
     // Update is called once per frame
@@ -53,24 +61,24 @@ public class GameScript : MonoBehaviour
 
     }
 
-    public void CollectedItem()
+    public void CollectedItem() // to see how many health boxes have been collected
     {
         itemscollected++;
     }
 
-    public void StartButton()
+    public void StartButton() // Start button on start screen
     {
         Time.timeScale = 1;
         StartScreen.SetActive(false); // game unpaused
     }
 
-    public void Restart()
+    public void Restart() // restart button on GameOver Screen
     {
         SceneManager.LoadScene("Level-1");
         StartScreen.SetActive(false);
     }
 
-    public void MainMenu()
+    public void MainMenu() // main menu button on GameOver screen 
     {
         StartScreen.SetActive(true);
     }
@@ -78,5 +86,20 @@ public class GameScript : MonoBehaviour
     float numItemsCollected()
     {
         return itemscollected;
+    }
+
+    IEnumerator EnemySpawn() // to place enemy spawn randomly around the placed enemy.
+    {
+        while (enemycount < 30)
+        {
+            xPos = Random.Range(575,535);
+            zPos = Random.Range(579, 545);
+            Instantiate(Enemy, new Vector3(xPos, 14, zPos), Quaternion.identity);
+            yield return new WaitForSeconds(0.5f);
+            enemycount += 1;
+
+
+        }
+        
     }
 }

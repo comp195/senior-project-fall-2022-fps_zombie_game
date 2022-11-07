@@ -349,6 +349,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1890622733}
     - target: {fileID: 7049833714501064457, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+      propertyPath: Enemy
+      value: 
+      objectReference: {fileID: 694700983}
+    - target: {fileID: 7049833714501064457, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: StartScreen
       value: 
       objectReference: {fileID: 730393807}
@@ -611,15 +615,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5189657893114894928, guid: 060878a7ed6cf27478a397af5cb4be2e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 579.9535
+      value: 580.57
       objectReference: {fileID: 0}
     - target: {fileID: 5189657893114894928, guid: 060878a7ed6cf27478a397af5cb4be2e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.11558
+      value: 12.92
       objectReference: {fileID: 0}
     - target: {fileID: 5189657893114894928, guid: 060878a7ed6cf27478a397af5cb4be2e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 541.4624
+      value: 543.35
       objectReference: {fileID: 0}
     - target: {fileID: 5189657893114894928, guid: 060878a7ed6cf27478a397af5cb4be2e, type: 3}
       propertyPath: m_LocalRotation.w
