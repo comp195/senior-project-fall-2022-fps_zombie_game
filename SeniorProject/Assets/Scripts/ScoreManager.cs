@@ -3,35 +3,33 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class ScoreManager : MonoBehaviour
 {
-    private ScoreData sd;
-    void Awake()
-    {
-        var json = PlayerPrefs.GetString("scores", "{}");
-        sd = JsonUtility.FromJson<ScoreData>(json);
-    }
+	public static ScoreManager instance;
 
-    public IEnumerable<Score> GetHighScores()
-    {
-        return sd.scores.OrderByDescending(x => x.score);
-    }
+	public Text scoreText;
+	public Text highScoreText;
 
-    public void AddScore(Score score)
-    {
-        sd.scores.Add(score);
-    }
+	int score = 0;
+	int highScore = 0;
 
-    private void OnDestroy()
-    {
-        SaveScore();
-    }
+	private void Awake() {
+		instance = this;
+	}
 
-    public void SaveScore()
-    {
-        var json = JsonUtility.ToJson(sd);
-        Debug.Log(json);
-        PlayerPrefs.SetString("scores", json);
-    }
+	void Start(){
+	highScore = PlayerPrefs.GetInt("highscore", 0);
+	scoreText.text = score.ToString() + " POINTS";
+	highScoreText.text = "HIGHSCORE: " + highScore.ToString();
+	}
+
+	public void AddPoint(){
+		score += 1;
+		scoreText.text = score.ToString() + " POINTS";
+		if (highScore<score)
+			PlayerPrefs.SetInt("highscore", score);
+	}
 }
