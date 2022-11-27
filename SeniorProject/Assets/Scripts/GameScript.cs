@@ -32,6 +32,7 @@ public class GameScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        StartCoroutine(EnemySpawn()); // to spawn enemies in random locations
         itemscollected = 0;
         totalFood = Food.transform.childCount;
         StartScreen.SetActive(true);
@@ -39,13 +40,12 @@ public class GameScript : MonoBehaviour
         Time.timeScale=0; // game paused
         current_time = starting_Time; // time set to 120 seconds at the start
         msgPrefix = "Time: ";
-        StartCoroutine(EnemySpawn()); // to spawn enemies in random locations
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
         current_time -= 1 * Time.deltaTime; // time updated each frame, which is subtracted by 1 second per frame
         countdownText.SetText(msgPrefix + (current_time));
 
