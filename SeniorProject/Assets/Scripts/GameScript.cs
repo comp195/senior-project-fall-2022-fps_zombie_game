@@ -90,7 +90,7 @@ public class GameScript : MonoBehaviour
 
     IEnumerator EnemySpawn() // to place enemy spawn randomly around the placed enemy.
     {
-        while (enemycount < 30)
+        while (enemycount < 100)
         {
             xPos = Random.Range(575,535);
             zPos = Random.Range(579, 545);
