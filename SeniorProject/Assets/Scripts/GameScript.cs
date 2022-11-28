@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using TMPro;
 using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
@@ -21,6 +22,11 @@ public class GameScript : MonoBehaviour
     [SerializeField]private float starting_Time = 120f; //  starting time for the Game being 120 seconds which is 2 mins
     [SerializeField] TextMeshProUGUI countdownText; // UI on screen to display time
     private string msgPrefix; // to display Time: 120s
+
+    private float current_health = 0f; // current health
+    [SerializeField] private float starting_Health = 100f; // starting health of the player
+    [SerializeField] private TextMeshProUGUI HealthText; // The Display Text
+    private string HealthLeftmsg;// msg displaying the health
     
     private int xPos; // to get position of enemy
     private int zPos; // enemy position
@@ -39,7 +45,9 @@ public class GameScript : MonoBehaviour
         GameOverScreen.SetActive(false);
         current_time = starting_Time; // time set to 120 seconds at the start
         msgPrefix = "Time: ";
-        
+        current_health = starting_Health; // initial health of our hero is 100
+        HealthLeftmsg = "HEALTH: ";
+
     }
 
     // Update is called once per frame
@@ -47,6 +55,16 @@ public class GameScript : MonoBehaviour
     {
         current_time -= 1 * Time.deltaTime; // time updated each frame, which is subtracted by 1 second per frame
         countdownText.SetText(msgPrefix + (current_time));
+        
+        
+       // current_health -= 1; // health subtracted by 1
+        HealthText.SetText(HealthLeftmsg+ (current_health)); // health display
+        if (current_health <= 0)
+        {
+            GameOverScreen.SetActive(true);
+            Time.timeScale = 0;
+        }
+        
 
         if (current_time <= 0)
         {
