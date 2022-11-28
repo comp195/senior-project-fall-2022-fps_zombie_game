@@ -103,11 +103,4 @@ public class Pistol1Controller : MonoBehaviour
             transform.localEulerAngles = orignalRotation;
         }
 
-        void Reload()
-        {
-            
-            
-            
-            
-        }
 }
