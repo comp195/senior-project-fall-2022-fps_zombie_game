@@ -37,7 +37,6 @@ public class GameScript : MonoBehaviour
         totalFood = Food.transform.childCount;
         StartScreen.SetActive(true);
         GameOverScreen.SetActive(false);
-        Time.timeScale=0; // game paused
         current_time = starting_Time; // time set to 120 seconds at the start
         msgPrefix = "Time: ";
         
@@ -64,12 +63,6 @@ public class GameScript : MonoBehaviour
     public void CollectedItem() // to see how many health boxes have been collected
     {
         itemscollected++;
-    }
-
-    public void StartButton() // Start button on start screen
-    {
-        Time.timeScale = 1;
-        StartScreen.SetActive(false); // game unpaused
     }
 
     public void Restart() // restart button on GameOver Screen
