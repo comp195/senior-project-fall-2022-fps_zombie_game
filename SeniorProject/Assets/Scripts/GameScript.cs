@@ -41,7 +41,8 @@ public class GameScript : MonoBehaviour
         StartCoroutine(EnemySpawn()); // to spawn enemies in random locations
         itemscollected = 0;
         totalFood = Food.transform.childCount;
-        StartScreen.SetActive(true);
+        // changed the code below to false
+        StartScreen.SetActive(false);
         GameOverScreen.SetActive(false);
         current_time = starting_Time; // time set to 120 seconds at the start
         msgPrefix = "Time: ";
@@ -103,9 +104,12 @@ public class GameScript : MonoBehaviour
     {
         while (enemycount < 100)
         {
-            xPos = Random.Range(575,535);
-            zPos = Random.Range(579, 545);
-            Instantiate(Enemy, new Vector3(xPos, 14, zPos), Quaternion.identity);
+            // xPos = Random.Range(575, 535);
+            // zPos = Random.Range(579, 545);
+            // Instantiate(Enemy, new Vector3(xPos, 14, zPos), Quaternion.identity);
+            xPos = Random.Range(100, 100);
+            zPos = Random.Range(100, 100);
+            Instantiate(Enemy, new Vector3(xPos, 1, zPos), Quaternion.identity);
             yield return new WaitForSeconds(0.5f);
             enemycount += 1;
 

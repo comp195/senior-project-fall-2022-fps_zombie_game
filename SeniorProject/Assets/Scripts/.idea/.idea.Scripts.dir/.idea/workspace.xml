@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edc93542-2ee5-4fcd-9736-771af3bc74c4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Scenes/Level-3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EnemyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Row.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Row.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RowUi.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RowUi.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Score.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Score.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScoreData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScoreData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScoreUi.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScoreUi.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +15,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/EnemyController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EnemyFollow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FirstPersonController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GameScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ScoreManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -54,6 +46,8 @@
       <updated>1669351508784</updated>
       <workItem from="1669351528447" duration="1143000" />
       <workItem from="1669355779276" duration="1153000" />
+      <workItem from="1669608793579" duration="116000" />
+      <workItem from="1670012883184" duration="2494000" />
     </task>
     <servers />
   </component>
