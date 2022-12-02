@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     public float Hitpoint = 100;
+    [SerializeField] public GameObject gunController;
     
     public void takeDamage(float damage)
     {
@@ -22,7 +23,8 @@ public class EnemyController : MonoBehaviour
     void killEnemy()
     {
         Destroy(this.gameObject);
-        ///
+        gunController.GetComponent<GunController>().addKill();
+        
         ScoreManager.instance.AddPoint();
     }
 }
