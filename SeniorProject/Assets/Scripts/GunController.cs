@@ -27,10 +27,12 @@ public class GunController : MonoBehaviour
     public void addKill()
     {
         killsCounter++;
+        Debug.Log("killcont=" + killsCounter);
         if (killsCounter == levelCap)
         {
             if (LV1Gun.activeSelf)
             {
+                Debug.Log("upgrade");
                 LV1toLV2();
                 killsCounter = 0;
             }

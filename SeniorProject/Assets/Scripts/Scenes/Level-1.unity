@@ -147,7 +147,7 @@ PrefabInstance:
     - target: {fileID: 7049833712815610751, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: Crosshair
       value: 
-      objectReference: {fileID: 2099821263}
+      objectReference: {fileID: 90679250}
     - target: {fileID: 7049833712815610751, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: reloadRotation.x
       value: 70
@@ -278,7 +278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7860861318959358840, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7860861319198231864, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_IsActive
@@ -290,7 +290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7860861319375934581, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7860861319462759184, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_IsActive
@@ -25092,7 +25092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   killsCounter: 0
-  levelCap: 1
+  levelCap: 3
   LV1Gun: {fileID: 1879436575}
   LV2Gun: {fileID: 536628075}
   LV3Gun: {fileID: 290912907}
@@ -54614,6 +54614,40 @@ Transform:
   m_Father: {fileID: 110771169}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1752024129 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7860861318959358840, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+  m_PrefabInstance: {fileID: 110771163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1752024132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752024129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e62272570cb450e4bba33fcfbaa08eb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 25
+  range: 100
+  fpsCam: {fileID: 1492947879}
+  fireRate: 0.1
+  ammo: {fileID: 717810257}
+  Crosshair: {fileID: 90679250}
+  muzzleflash: {fileID: 1197947964}
+  MaxAmmo: 30
+  AmmoCount: 30
+  Recoil: {x: -2, y: 0, z: 0}
+  fixRecoilRotation: {x: 2, y: 0, z: 0}
+  reloadRotation: {x: -40, y: 0, z: 0}
+  reloadTime: 3
+  bulletPoint: {fileID: 1824308246}
+  enemylayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &1813609564
 GameObject:
   m_ObjectHideFlags: 0
