@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 7037a17ef83b9ef43afb6f35777860f5, type: 2}
+--- !u!1 &34877687 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7860861318882283238, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+  m_PrefabInstance: {fileID: 110771163}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &89890943 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7860861320442675612, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
@@ -132,6 +137,11 @@ GameObject:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1669438803483831832, guid: 29a8775a3c45ae2439694039534d1d84, type: 3}
   m_PrefabInstance: {fileID: 6554795045809954610}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &105281366 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7860861319340067409, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+  m_PrefabInstance: {fileID: 110771163}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &110771163
 PrefabInstance:
@@ -278,7 +288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7860861318959358840, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7860861319198231864, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_IsActive
@@ -286,7 +296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7860861319340067409, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7860861319375934581, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_IsActive
@@ -324,6 +334,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8509445704510375577, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 35a5af17f562eb044a809af0526a562f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
 --- !u!4 &110771164 stripped
@@ -416,6 +430,35 @@ MonoBehaviour:
   reloadRotation: {x: 60, y: 0, z: 0}
   reloadTime: 2
   bulletPoint: {fileID: 2114528578}
+  enemylayer:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!114 &110771182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105281366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88f94bb6b5ffc4347a819746519078b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 35
+  range: 500
+  fpsCam: {fileID: 1492947879}
+  fireRate: 0.094
+  ammo: {fileID: 717810257}
+  Crosshair: {fileID: 90679250}
+  muzzleflash: {fileID: 478767045}
+  MaxAmmo: 30
+  AmmoCount: 30
+  Recoil: {x: -3, y: 0, z: 0}
+  fixRecoilRotation: {x: 0.57, y: 0, z: 0}
+  reloadRotation: {x: -30, y: 0, z: 0}
+  reloadTime: 3
+  bulletPoint: {fileID: 1287491611}
   enemylayer:
     serializedVersion: 2
     m_Bits: 64
@@ -636,7 +679,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.2
+      scalar: 0.06
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -5296,6 +5339,35 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7860861320382359084, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
   m_PrefabInstance: {fileID: 110771163}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &358498917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34877687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c89d9a05378584e8b7e265f4bf08c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 30
+  range: 500
+  fpsCam: {fileID: 1492947879}
+  fireRate: 0.1
+  ammo: {fileID: 717810257}
+  Crosshair: {fileID: 90679250}
+  muzzleflash: {fileID: 1879995389}
+  MaxAmmo: 25
+  AmmoCount: 25
+  Recoil: {x: -3, y: 0, z: 0}
+  fixRecoilRotation: {x: 0.7, y: 0, z: 0}
+  reloadRotation: {x: -60, y: 0, z: 0}
+  reloadTime: 3
+  bulletPoint: {fileID: 723352125}
+  enemylayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &456417187
 GameObject:
   m_ObjectHideFlags: 0
@@ -25097,6 +25169,9 @@ MonoBehaviour:
   LV2Gun: {fileID: 536628075}
   LV3Gun: {fileID: 290912907}
   LV4Gun: {fileID: 89890943}
+  LV5Gun: {fileID: 1264045001}
+  LV6Gun: {fileID: 1400853606}
+  LV7Gun: {fileID: 1035241161}
 --- !u!4 &1027151768
 Transform:
   m_ObjectHideFlags: 0
@@ -25112,6 +25187,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1035241161 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7860861319198231864, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+  m_PrefabInstance: {fileID: 110771163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1035241162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035241161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be29c665a273a0645b2f1c5cf5442f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 20
+  range: 100
+  fpsCam: {fileID: 1492947879}
+  fireRate: 0.07
+  ammo: {fileID: 717810257}
+  Crosshair: {fileID: 90679250}
+  muzzleflash: {fileID: 1160748837}
+  MaxAmmo: 13
+  AmmoCount: 13
+  Recoil: {x: -4, y: 0, z: 0}
+  fixRecoilRotation: {x: 5, y: 0, z: 0}
+  reloadRotation: {x: -30, y: 0, z: 0}
+  reloadTime: 3
+  bulletPoint: {fileID: 243499009}
+  enemylayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!114 &1040681593 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7049833714501064457, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
@@ -25123,6 +25232,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2a5ae20e4456c2439989cc3023843d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1101995718 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7860861319702717612, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+  m_PrefabInstance: {fileID: 110771163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1101995721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101995718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03332a3567012bb4b9d985c5003ecd9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 40
+  range: 500
+  fpsCam: {fileID: 1492947879}
+  fireRate: 0.15
+  ammo: {fileID: 717810257}
+  Crosshair: {fileID: 90679250}
+  muzzleflash: {fileID: 1148036863}
+  MaxAmmo: 30
+  AmmoCount: 30
+  Recoil: {x: -6, y: 0, z: 0}
+  fixRecoilRotation: {x: 2, y: 0, z: 0}
+  reloadRotation: {x: -40, y: 0, z: 0}
+  reloadTime: 3
+  bulletPoint: {fileID: 1207931975}
+  enemylayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &1148036859
 GameObject:
   m_ObjectHideFlags: 0
@@ -25265,7 +25408,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1148036859}
   serializedVersion: 8
-  lengthInSec: 0.2
+  lengthInSec: 0.05
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -39852,6 +39995,40 @@ Transform:
   m_Father: {fileID: 110771168}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1450133464 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7860861319518299980, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+  m_PrefabInstance: {fileID: 110771163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1450133467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450133464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 261b9dcac16683245845c42d621f600e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 35
+  range: 500
+  fpsCam: {fileID: 1492947879}
+  fireRate: 0.1
+  ammo: {fileID: 717810257}
+  Crosshair: {fileID: 90679250}
+  muzzleflash: {fileID: 133415458}
+  MaxAmmo: 30
+  AmmoCount: 30
+  Recoil: {x: -3, y: 0, z: 0}
+  fixRecoilRotation: {x: 3, y: 0, z: 0}
+  reloadRotation: {x: -40, y: 0, z: 0}
+  reloadTime: 3
+  bulletPoint: {fileID: 1351811235}
+  enemylayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &1489043253
 GameObject:
   m_ObjectHideFlags: 0
