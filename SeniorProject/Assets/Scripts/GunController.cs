@@ -15,18 +15,6 @@ public class GunController : MonoBehaviour
     [SerializeField] public GameObject LV6Gun;
     [SerializeField] public GameObject LV7Gun;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void addKill()
     {
         killsCounter++;

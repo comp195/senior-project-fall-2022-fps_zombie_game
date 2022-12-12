@@ -133,11 +133,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7860861320442675612, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
   m_PrefabInstance: {fileID: 110771163}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &90679250 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1669438803483831832, guid: 29a8775a3c45ae2439694039534d1d84, type: 3}
-  m_PrefabInstance: {fileID: 6554795045809954610}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &105281366 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7860861319340067409, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
@@ -157,7 +152,7 @@ PrefabInstance:
     - target: {fileID: 7049833712815610751, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: Crosshair
       value: 
-      objectReference: {fileID: 90679250}
+      objectReference: {fileID: 1686244435}
     - target: {fileID: 7049833712815610751, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: reloadRotation.x
       value: 70
@@ -254,6 +249,38 @@ PrefabInstance:
       propertyPath: GameOverScreen
       value: 
       objectReference: {fileID: 1355320309}
+    - target: {fileID: 7375967189237485803, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.555
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375967189237485803, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.325
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375967189237485803, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375967189237485803, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375967189237485803, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375967189237485803, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375967189237485803, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7375967189237485803, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7375967190342696086, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.278
@@ -296,11 +323,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7860861319340067409, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7860861319375934581, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7860861319462759184, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_IsActive
@@ -422,7 +449,7 @@ MonoBehaviour:
   fpsCam: {fileID: 1492947879}
   fireRate: 1
   ammo: {fileID: 717810257}
-  Crosshair: {fileID: 90679250}
+  Crosshair: {fileID: 1686244435}
   muzzleflash: {fileID: 569332966}
   MaxAmmo: 7
   AmmoCount: 7
@@ -450,18 +477,39 @@ MonoBehaviour:
   fpsCam: {fileID: 1492947879}
   fireRate: 0.094
   ammo: {fileID: 717810257}
-  Crosshair: {fileID: 90679250}
+  Crosshair: {fileID: 1686244435}
   muzzleflash: {fileID: 478767045}
   MaxAmmo: 30
   AmmoCount: 30
   Recoil: {x: -3, y: 0, z: 0}
-  fixRecoilRotation: {x: 0.57, y: 0, z: 0}
+  fixRecoilRotation: {x: 0.09, y: 0, z: 0}
   reloadRotation: {x: -30, y: 0, z: 0}
   reloadTime: 3
   bulletPoint: {fileID: 1287491611}
   enemylayer:
     serializedVersion: 2
     m_Bits: 64
+  RecoilAnim: {fileID: 7400000, guid: f424d120e9932ac4db9d35a796bcb822, type: 2}
+--- !u!95 &110771186
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105281366}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8fab9091f7a2030489a962a2452a78f6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &133415454
 GameObject:
   m_ObjectHideFlags: 0
@@ -5303,6 +5351,11 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!224 &184655223 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1669438804094801211, guid: 29a8775a3c45ae2439694039534d1d84, type: 3}
+  m_PrefabInstance: {fileID: 6554795045809954610}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &243499008
 GameObject:
   m_ObjectHideFlags: 0
@@ -5356,7 +5409,7 @@ MonoBehaviour:
   fpsCam: {fileID: 1492947879}
   fireRate: 0.1
   ammo: {fileID: 717810257}
-  Crosshair: {fileID: 90679250}
+  Crosshair: {fileID: 1686244435}
   muzzleflash: {fileID: 1879995389}
   MaxAmmo: 25
   AmmoCount: 25
@@ -15140,7 +15193,7 @@ MonoBehaviour:
   fpsCam: {fileID: 1492947879}
   fireRate: 0.5
   ammo: {fileID: 717810257}
-  Crosshair: {fileID: 90679250}
+  Crosshair: {fileID: 1686244435}
   muzzleflash: {fileID: 1489043257}
   MaxAmmo: 17
   AmmoCount: 17
@@ -25209,7 +25262,7 @@ MonoBehaviour:
   fpsCam: {fileID: 1492947879}
   fireRate: 0.07
   ammo: {fileID: 717810257}
-  Crosshair: {fileID: 90679250}
+  Crosshair: {fileID: 1686244435}
   muzzleflash: {fileID: 1160748837}
   MaxAmmo: 13
   AmmoCount: 13
@@ -25254,7 +25307,7 @@ MonoBehaviour:
   fpsCam: {fileID: 1492947879}
   fireRate: 0.15
   ammo: {fileID: 717810257}
-  Crosshair: {fileID: 90679250}
+  Crosshair: {fileID: 1686244435}
   muzzleflash: {fileID: 1148036863}
   MaxAmmo: 30
   AmmoCount: 30
@@ -39842,7 +39895,7 @@ MonoBehaviour:
   fpsCam: {fileID: 1492947879}
   fireRate: 4
   ammo: {fileID: 717810257}
-  Crosshair: {fileID: 90679250}
+  Crosshair: {fileID: 1686244435}
   muzzleflash: {fileID: 909097228}
   MaxAmmo: 10
   AmmoCount: 10
@@ -39953,7 +40006,7 @@ MonoBehaviour:
   fpsCam: {fileID: 1492947879}
   fireRate: 5
   ammo: {fileID: 717810257}
-  Crosshair: {fileID: 90679250}
+  Crosshair: {fileID: 1686244435}
   muzzleflash: {fileID: 1507739083}
   MaxAmmo: 10
   AmmoCount: 10
@@ -40017,7 +40070,7 @@ MonoBehaviour:
   fpsCam: {fileID: 1492947879}
   fireRate: 0.1
   ammo: {fileID: 717810257}
-  Crosshair: {fileID: 90679250}
+  Crosshair: {fileID: 1686244435}
   muzzleflash: {fileID: 133415458}
   MaxAmmo: 30
   AmmoCount: 30
@@ -49919,6 +49972,79 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1686244435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1686244436}
+  - component: {fileID: 1686244438}
+  - component: {fileID: 1686244437}
+  m_Layer: 5
+  m_Name: Crosshair
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1686244436
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686244435}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 184655223}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1686244437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686244435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 632e0c90382fa2144a14d7170255c59c, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1686244438
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686244435}
+  m_CullTransparentMesh: 1
 --- !u!1 &1706469974
 GameObject:
   m_ObjectHideFlags: 0
@@ -54813,7 +54939,7 @@ MonoBehaviour:
   fpsCam: {fileID: 1492947879}
   fireRate: 0.1
   ammo: {fileID: 717810257}
-  Crosshair: {fileID: 90679250}
+  Crosshair: {fileID: 1686244435}
   muzzleflash: {fileID: 1197947964}
   MaxAmmo: 30
   AmmoCount: 30
@@ -59719,7 +59845,7 @@ MonoBehaviour:
   fpsCam: {fileID: 1492947879}
   fireRate: 0.5
   ammo: {fileID: 717810257}
-  Crosshair: {fileID: 90679250}
+  Crosshair: {fileID: 1686244435}
   muzzleflash: {fileID: 1706469978}
   MaxAmmo: 17
   AmmoCount: 17

@@ -26,6 +26,10 @@ public class AR4Controller : MonoBehaviour
     public float reloadTime = 3;
     [SerializeField] private Transform bulletPoint;
     [SerializeField] private LayerMask enemylayer;
+
+    [SerializeField] public AnimationClip RecoilAnim;
+
+    private Animation anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,10 +40,12 @@ public class AR4Controller : MonoBehaviour
             Crosshair.SetActive(true);
         }
         ammo.SetText(AmmoCount + "/" + MaxAmmo);
+        anim = GetComponent<Animation>();
+        anim.clip = RecoilAnim;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetKeyDown("r")&& Time.time >= nextTimeToFire)
         {
@@ -61,11 +67,11 @@ public class AR4Controller : MonoBehaviour
             if (AmmoCount > 0 )
             {
                 nextTimeToFire = Time.time + fireRate;
-                AddRecoil();
                 AmmoCount--; 
                 Shoot();
+                anim.Play();
                 ammo.SetText(AmmoCount + "/" + MaxAmmo);
-                StopRecoil();
+                
             }
             
         }
@@ -86,13 +92,5 @@ public class AR4Controller : MonoBehaviour
         }
     }
     
-    private void AddRecoil()
-    {
-        transform.localEulerAngles += Recoil;
-    }
     
-    private void StopRecoil()
-    {
-        transform.Rotate(fixRecoilRotation * (1000 * Time.deltaTime));
-    }
 }
