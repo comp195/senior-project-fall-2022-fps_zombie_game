@@ -38,12 +38,10 @@ public class GameScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1;
         StartCoroutine(EnemySpawn()); // to spawn enemies in random locations
         itemscollected = 0;
-        totalFood = Food.transform.childCount;
-        // changed the code below to false
-        StartScreen.SetActive(false);
-        GameOverScreen.SetActive(false);
+        totalFood = Food.transform.childCount; 
         current_time = starting_Time; // time set to 120 seconds at the start
         msgPrefix = "Time: ";
         current_health = starting_Health; // initial health of our hero is 100
@@ -102,14 +100,11 @@ public class GameScript : MonoBehaviour
 
     IEnumerator EnemySpawn() // to place enemy spawn randomly around the placed enemy.
     {
-        while (enemycount < 100)
+        while (current_time > -1)
         {
-            // xPos = Random.Range(575, 535);
-            // zPos = Random.Range(579, 545);
-            // Instantiate(Enemy, new Vector3(xPos, 14, zPos), Quaternion.identity);
-            xPos = Random.Range(100, 100);
-            zPos = Random.Range(100, 100);
-            Instantiate(Enemy, new Vector3(xPos, 1, zPos), Quaternion.identity);
+             xPos = Random.Range(49, 124);
+             zPos = Random.Range(49, 694);
+            Instantiate(Enemy, new Vector3(xPos,1 , zPos), Quaternion.identity);
             yield return new WaitForSeconds(0.5f);
             enemycount += 1;
 
