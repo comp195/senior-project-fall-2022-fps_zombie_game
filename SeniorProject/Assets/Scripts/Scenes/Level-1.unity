@@ -323,7 +323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7860861319340067409, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7860861319375934581, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_IsActive
@@ -355,7 +355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7860861320382359084, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7860861320442675612, guid: d1954686c9aa3b14a9dc4c6000ee477a, type: 3}
       propertyPath: m_IsActive
@@ -522,7 +522,6 @@ GameObject:
   - component: {fileID: 133415455}
   - component: {fileID: 133415458}
   - component: {fileID: 133415457}
-  - component: {fileID: 133415456}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -545,34 +544,6 @@ Transform:
   m_Father: {fileID: 110771175}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &133415456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 133415454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ec57f7c13cc6bb4fb6539aa3f01f2db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  fpsCam: {fileID: 0}
-  fireRate: 15
-  ammo: {fileID: 0}
-  Crosshair: {fileID: 0}
-  muzzleflash: {fileID: 0}
-  MaxAmmo: 6
-  AmmoCount: 6
-  Recoil: {x: 0, y: 0, z: 0}
-  reloadRotation: {x: 0, y: 0, z: 0}
-  reloadTime: 3
-  bulletPoint: {fileID: 0}
-  enemylayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!199 &133415457
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -5433,7 +5404,6 @@ GameObject:
   - component: {fileID: 456417188}
   - component: {fileID: 456417191}
   - component: {fileID: 456417190}
-  - component: {fileID: 456417189}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -5456,34 +5426,6 @@ Transform:
   m_Father: {fileID: 110771169}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &456417189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 456417187}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ec57f7c13cc6bb4fb6539aa3f01f2db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  fpsCam: {fileID: 0}
-  fireRate: 15
-  ammo: {fileID: 0}
-  Crosshair: {fileID: 0}
-  muzzleflash: {fileID: 0}
-  MaxAmmo: 6
-  AmmoCount: 6
-  Recoil: {x: 0, y: 0, z: 0}
-  reloadRotation: {x: 0, y: 0, z: 0}
-  reloadTime: 3
-  bulletPoint: {fileID: 0}
-  enemylayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!199 &456417190
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -10274,7 +10216,6 @@ GameObject:
   - component: {fileID: 478767042}
   - component: {fileID: 478767045}
   - component: {fileID: 478767044}
-  - component: {fileID: 478767043}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -10297,34 +10238,6 @@ Transform:
   m_Father: {fileID: 110771173}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &478767043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478767041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ec57f7c13cc6bb4fb6539aa3f01f2db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  fpsCam: {fileID: 0}
-  fireRate: 15
-  ammo: {fileID: 0}
-  Crosshair: {fileID: 0}
-  muzzleflash: {fileID: 0}
-  MaxAmmo: 6
-  AmmoCount: 6
-  Recoil: {x: 0, y: 0, z: 0}
-  reloadRotation: {x: 0, y: 0, z: 0}
-  reloadTime: 3
-  bulletPoint: {fileID: 0}
-  enemylayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!199 &478767044
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -15216,7 +15129,6 @@ GameObject:
   - component: {fileID: 569332963}
   - component: {fileID: 569332966}
   - component: {fileID: 569332965}
-  - component: {fileID: 569332964}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -15239,34 +15151,6 @@ Transform:
   m_Father: {fileID: 110771172}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &569332964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 569332962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ec57f7c13cc6bb4fb6539aa3f01f2db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  fpsCam: {fileID: 0}
-  fireRate: 15
-  ammo: {fileID: 0}
-  Crosshair: {fileID: 0}
-  muzzleflash: {fileID: 0}
-  MaxAmmo: 6
-  AmmoCount: 6
-  Recoil: {x: 0, y: 0, z: 0}
-  reloadRotation: {x: 0, y: 0, z: 0}
-  reloadTime: 3
-  bulletPoint: {fileID: 0}
-  enemylayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!199 &569332965
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -20327,7 +20211,6 @@ GameObject:
   - component: {fileID: 909097225}
   - component: {fileID: 909097228}
   - component: {fileID: 909097227}
-  - component: {fileID: 909097226}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -20350,34 +20233,6 @@ Transform:
   m_Father: {fileID: 110771164}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &909097226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 909097224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ec57f7c13cc6bb4fb6539aa3f01f2db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  fpsCam: {fileID: 0}
-  fireRate: 15
-  ammo: {fileID: 0}
-  Crosshair: {fileID: 0}
-  muzzleflash: {fileID: 0}
-  MaxAmmo: 6
-  AmmoCount: 6
-  Recoil: {x: 0, y: 0, z: 0}
-  reloadRotation: {x: 0, y: 0, z: 0}
-  reloadTime: 3
-  bulletPoint: {fileID: 0}
-  enemylayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!199 &909097227
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -25331,7 +25186,6 @@ GameObject:
   - component: {fileID: 1148036860}
   - component: {fileID: 1148036863}
   - component: {fileID: 1148036862}
-  - component: {fileID: 1148036861}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -25354,34 +25208,6 @@ Transform:
   m_Father: {fileID: 110771176}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1148036861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1148036859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ec57f7c13cc6bb4fb6539aa3f01f2db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  fpsCam: {fileID: 0}
-  fireRate: 15
-  ammo: {fileID: 0}
-  Crosshair: {fileID: 0}
-  muzzleflash: {fileID: 0}
-  MaxAmmo: 6
-  AmmoCount: 6
-  Recoil: {x: 0, y: 0, z: 0}
-  reloadRotation: {x: 0, y: 0, z: 0}
-  reloadTime: 3
-  bulletPoint: {fileID: 0}
-  enemylayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!199 &1148036862
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -30172,7 +29998,6 @@ GameObject:
   - component: {fileID: 1160748834}
   - component: {fileID: 1160748837}
   - component: {fileID: 1160748836}
-  - component: {fileID: 1160748835}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -30195,34 +30020,6 @@ Transform:
   m_Father: {fileID: 110771166}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1160748835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1160748833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ec57f7c13cc6bb4fb6539aa3f01f2db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  fpsCam: {fileID: 0}
-  fireRate: 15
-  ammo: {fileID: 0}
-  Crosshair: {fileID: 0}
-  muzzleflash: {fileID: 0}
-  MaxAmmo: 6
-  AmmoCount: 6
-  Recoil: {x: 0, y: 0, z: 0}
-  reloadRotation: {x: 0, y: 0, z: 0}
-  reloadTime: 3
-  bulletPoint: {fileID: 0}
-  enemylayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!199 &1160748836
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -35013,7 +34810,6 @@ GameObject:
   - component: {fileID: 1197947961}
   - component: {fileID: 1197947964}
   - component: {fileID: 1197947963}
-  - component: {fileID: 1197947962}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -35036,34 +34832,6 @@ Transform:
   m_Father: {fileID: 110771167}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1197947962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1197947960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ec57f7c13cc6bb4fb6539aa3f01f2db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  fpsCam: {fileID: 0}
-  fireRate: 15
-  ammo: {fileID: 0}
-  Crosshair: {fileID: 0}
-  muzzleflash: {fileID: 0}
-  MaxAmmo: 6
-  AmmoCount: 6
-  Recoil: {x: 0, y: 0, z: 0}
-  reloadRotation: {x: 0, y: 0, z: 0}
-  reloadTime: 3
-  bulletPoint: {fileID: 0}
-  enemylayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!199 &1197947963
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -40094,7 +39862,6 @@ GameObject:
   - component: {fileID: 1489043254}
   - component: {fileID: 1489043257}
   - component: {fileID: 1489043256}
-  - component: {fileID: 1489043255}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -40117,34 +39884,6 @@ Transform:
   m_Father: {fileID: 110771170}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1489043255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1489043253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ec57f7c13cc6bb4fb6539aa3f01f2db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  fpsCam: {fileID: 0}
-  fireRate: 15
-  ammo: {fileID: 0}
-  Crosshair: {fileID: 0}
-  muzzleflash: {fileID: 0}
-  MaxAmmo: 6
-  AmmoCount: 6
-  Recoil: {x: 0, y: 0, z: 0}
-  reloadRotation: {x: 0, y: 0, z: 0}
-  reloadTime: 3
-  bulletPoint: {fileID: 0}
-  enemylayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!199 &1489043256
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -45034,7 +44773,6 @@ GameObject:
   - component: {fileID: 1507739080}
   - component: {fileID: 1507739083}
   - component: {fileID: 1507739082}
-  - component: {fileID: 1507739081}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -45057,34 +44795,6 @@ Transform:
   m_Father: {fileID: 110771165}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1507739081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1507739079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ec57f7c13cc6bb4fb6539aa3f01f2db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  fpsCam: {fileID: 0}
-  fireRate: 15
-  ammo: {fileID: 0}
-  Crosshair: {fileID: 0}
-  muzzleflash: {fileID: 0}
-  MaxAmmo: 6
-  AmmoCount: 6
-  Recoil: {x: 0, y: 0, z: 0}
-  reloadRotation: {x: 0, y: 0, z: 0}
-  reloadTime: 3
-  bulletPoint: {fileID: 0}
-  enemylayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!199 &1507739082
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -50057,7 +49767,6 @@ GameObject:
   - component: {fileID: 1706469975}
   - component: {fileID: 1706469978}
   - component: {fileID: 1706469977}
-  - component: {fileID: 1706469976}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -50080,34 +49789,6 @@ Transform:
   m_Father: {fileID: 110771171}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1706469976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1706469974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ec57f7c13cc6bb4fb6539aa3f01f2db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  fpsCam: {fileID: 0}
-  fireRate: 15
-  ammo: {fileID: 0}
-  Crosshair: {fileID: 0}
-  muzzleflash: {fileID: 0}
-  MaxAmmo: 6
-  AmmoCount: 6
-  Recoil: {x: 0, y: 0, z: 0}
-  reloadRotation: {x: 0, y: 0, z: 0}
-  reloadTime: 3
-  bulletPoint: {fileID: 0}
-  enemylayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!199 &1706469977
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -54963,7 +54644,6 @@ GameObject:
   - component: {fileID: 1813609565}
   - component: {fileID: 1813609568}
   - component: {fileID: 1813609567}
-  - component: {fileID: 1813609566}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -54986,34 +54666,6 @@ Transform:
   m_Father: {fileID: 110771168}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1813609566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813609564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ec57f7c13cc6bb4fb6539aa3f01f2db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  fpsCam: {fileID: 0}
-  fireRate: 15
-  ammo: {fileID: 0}
-  Crosshair: {fileID: 0}
-  muzzleflash: {fileID: 0}
-  MaxAmmo: 6
-  AmmoCount: 6
-  Recoil: {x: 0, y: 0, z: 0}
-  reloadRotation: {x: 0, y: 0, z: 0}
-  reloadTime: 3
-  bulletPoint: {fileID: 0}
-  enemylayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!199 &1813609567
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -59868,7 +59520,6 @@ GameObject:
   - component: {fileID: 1879995386}
   - component: {fileID: 1879995389}
   - component: {fileID: 1879995388}
-  - component: {fileID: 1879995387}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -59891,34 +59542,6 @@ Transform:
   m_Father: {fileID: 110771174}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1879995387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1879995385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ec57f7c13cc6bb4fb6539aa3f01f2db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  range: 100
-  fpsCam: {fileID: 0}
-  fireRate: 15
-  ammo: {fileID: 0}
-  Crosshair: {fileID: 0}
-  muzzleflash: {fileID: 0}
-  MaxAmmo: 6
-  AmmoCount: 6
-  Recoil: {x: 0, y: 0, z: 0}
-  reloadRotation: {x: 0, y: 0, z: 0}
-  reloadTime: 3
-  bulletPoint: {fileID: 0}
-  enemylayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!199 &1879995388
 ParticleSystemRenderer:
   serializedVersion: 6

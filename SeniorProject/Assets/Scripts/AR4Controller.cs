@@ -69,7 +69,7 @@ public class AR4Controller : MonoBehaviour
                 nextTimeToFire = Time.time + fireRate;
                 AmmoCount--; 
                 Shoot();
-                anim.Play();
+                anim.Play("Recoil");
                 ammo.SetText(AmmoCount + "/" + MaxAmmo);
                 
             }
