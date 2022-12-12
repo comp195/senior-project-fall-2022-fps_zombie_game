@@ -20518,6 +20518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombie
       objectReference: {fileID: 0}
+    - target: {fileID: 43456602576842853, guid: 18b846f8068671445b3b3a7fd10523b1, type: 3}
+      propertyPath: gunController
+      value: 
+      objectReference: {fileID: 1267788783}
     - target: {fileID: 43456602576842855, guid: 18b846f8068671445b3b3a7fd10523b1, type: 3}
       propertyPath: enemy
       value: 
