@@ -80,7 +80,7 @@ public class Pistol1Controller : MonoBehaviour
         void Shoot()
         {
             Ray ray = new Ray();
-            ray.origin = bulletPoint.position;
+            ray.origin = bulletPoint.position ;
             ray.direction = bulletPoint.TransformDirection(Vector3.forward);
             muzzleflash.Play();
             RaycastHit hit;
