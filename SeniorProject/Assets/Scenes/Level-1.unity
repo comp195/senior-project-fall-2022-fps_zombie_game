@@ -35145,6 +35145,34 @@ PrefabInstance:
       propertyPath: Player
       value: 
       objectReference: {fileID: 2023112806}
+    - target: {fileID: 43456602576842855, guid: 18b846f8068671445b3b3a7fd10523b1, type: 3}
+      propertyPath: HealthText
+      value: 
+      objectReference: {fileID: 389922021}
+    - target: {fileID: 43456602576842855, guid: 18b846f8068671445b3b3a7fd10523b1, type: 3}
+      propertyPath: SightRange
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 43456602576842855, guid: 18b846f8068671445b3b3a7fd10523b1, type: 3}
+      propertyPath: attackRange
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 43456602576842855, guid: 18b846f8068671445b3b3a7fd10523b1, type: 3}
+      propertyPath: timebetween
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 43456602576842855, guid: 18b846f8068671445b3b3a7fd10523b1, type: 3}
+      propertyPath: walkPointrange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 43456602576842855, guid: 18b846f8068671445b3b3a7fd10523b1, type: 3}
+      propertyPath: WhatisGround.m_Bits
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 43456602576842855, guid: 18b846f8068671445b3b3a7fd10523b1, type: 3}
+      propertyPath: WhatisPlayer.m_Bits
+      value: 32
+      objectReference: {fileID: 0}
     - target: {fileID: 43456602576842872, guid: 18b846f8068671445b3b3a7fd10523b1, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -40734,7 +40762,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 3
+  m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
