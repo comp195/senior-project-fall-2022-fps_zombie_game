@@ -27,6 +27,9 @@ public class Smg1Controller : MonoBehaviour
     private Animator anim;
 
     [SerializeField] public float RecoilSpeed = 10;
+    private AudioSource audio;
+    [SerializeField] public AudioClip gunshot;
+    [SerializeField] public AudioClip reloadSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,7 +39,7 @@ public class Smg1Controller : MonoBehaviour
         }
         ammo.SetText(AmmoCount + "/" + MaxAmmo);
         anim = GetComponent<Animator>();
-
+        audio = gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -49,6 +52,7 @@ public class Smg1Controller : MonoBehaviour
             anim.Play("Reload");
             isReloading = true;
             Reloading.gameObject.SetActive(true);
+            audio.PlayOneShot(reloadSound);
         }
 
         if (isReloading == true && Time.time >= nextTimeToFire)
@@ -66,6 +70,7 @@ public class Smg1Controller : MonoBehaviour
                 nextTimeToFire = Time.time + fireRate;
                 AmmoCount--; 
                 Shoot();
+                audio.PlayOneShot(gunshot);
                 anim.speed = RecoilSpeed;
                 anim.Play("Recoil");
                 ammo.SetText(AmmoCount + "/" + MaxAmmo);

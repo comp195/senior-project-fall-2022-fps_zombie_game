@@ -27,6 +27,11 @@ public class AR1Controller : MonoBehaviour
     private Animator anim;
 
     [SerializeField] public float RecoilSpeed = 10;
+    private AudioSource audio;
+    [SerializeField] public AudioClip gunshot;
+    [SerializeField] public AudioClip reloadSound;
+
+    [SerializeField] public AudioClip cockingSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,7 +41,7 @@ public class AR1Controller : MonoBehaviour
         }
         ammo.SetText(AmmoCount + "/" + MaxAmmo);
         anim = GetComponent<Animator>();
-
+        audio = gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -49,6 +54,8 @@ public class AR1Controller : MonoBehaviour
             anim.Play("Reload");
             isReloading = true;
             Reloading.gameObject.SetActive(true);
+            audio.volume = 1;
+            audio.PlayOneShot(reloadSound);
         }
 
         if (isReloading == true && Time.time >= nextTimeToFire)
@@ -57,6 +64,7 @@ public class AR1Controller : MonoBehaviour
             ammo.SetText(AmmoCount + "/" + MaxAmmo);
             isReloading = false;
             Reloading.gameObject.SetActive(false);
+            audio.PlayOneShot(cockingSound);
         }
             
         if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
@@ -66,6 +74,8 @@ public class AR1Controller : MonoBehaviour
                 nextTimeToFire = Time.time + fireRate;
                 AmmoCount--; 
                 Shoot();
+                audio.volume = 0.6f;
+                audio.PlayOneShot(gunshot);
                 anim.speed = RecoilSpeed;
                 anim.Play("Recoil");
                 ammo.SetText(AmmoCount + "/" + MaxAmmo);

@@ -26,12 +26,16 @@ public class Pistol1Controller : MonoBehaviour
         [SerializeField] private Transform bulletPoint;
         [SerializeField] private LayerMask enemylayer;
         [SerializeField] public TextMeshProUGUI Reloading;
-        
+        private AudioSource audio;
+        [SerializeField] public AudioClip gunshot;
+        [SerializeField] public AudioClip reloadSound;
+
+        [SerializeField] public AudioClip cockingSound;
         // Start is called before the first frame update
         void Start()
         {
             orignalRotation = transform.localEulerAngles;
-            
+            audio = gameObject.GetComponent<AudioSource>();
             if (gameObject.isStatic)
             {
                 Crosshair.SetActive(true);
@@ -48,6 +52,7 @@ public class Pistol1Controller : MonoBehaviour
                 transform.localEulerAngles += reloadRotation;
                 isReloading = true;
                 Reloading.gameObject.SetActive(true);
+                audio.PlayOneShot(reloadSound);
             }
 
             if (isReloading == true && Time.time >= nextTimeToFire)
@@ -57,6 +62,7 @@ public class Pistol1Controller : MonoBehaviour
                 ammo.SetText(AmmoCount + "/" + MaxAmmo);
                 isReloading = false;
                 Reloading.gameObject.SetActive(false);
+                audio.PlayOneShot(cockingSound);
             }
             
             if (Input.GetButtonDown("Fire1") && Time.time >= nextTimeToFire)
@@ -67,6 +73,7 @@ public class Pistol1Controller : MonoBehaviour
                     AddRecoil();
                     AmmoCount--; 
                     Shoot();
+                    audio.PlayOneShot(gunshot);
                     ammo.SetText(AmmoCount + "/" + MaxAmmo);
                 }
                 
