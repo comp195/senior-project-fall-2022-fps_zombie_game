@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class AR1Controller : MonoBehaviour
 {
-    public float damage = 100;
+   public float damage = 100;
     public float range = 1000;
     public Camera fpsCam;
     public float fireRate = 1;
@@ -19,25 +19,30 @@ public class AR1Controller : MonoBehaviour
     
     public int MaxAmmo = 10;
     public int AmmoCount = 10;
-    public Vector3 Recoil;
-    private Vector3 orignalRotation;
-    [SerializeField] public Vector3 fixRecoilRotation;
-    [SerializeField] public Vector3 reloadRotation;
     public float reloadTime = 3;
     [SerializeField] private Transform bulletPoint;
     [SerializeField] private LayerMask enemylayer;
+    [SerializeField] public TextMeshProUGUI Reloading;
+
+    private Animator anim;
+
+    [SerializeField] public float RecoilSpeed = 10;
+    private AudioSource audio;
+    [SerializeField] public AudioClip gunshot;
+    [SerializeField] public AudioClip reloadSound;
+
+    [SerializeField] public AudioClip cockingSound;
     // Start is called before the first frame update
     void Start()
     {
-        orignalRotation = transform.localEulerAngles;
-            
         if (gameObject.isStatic)
         {
             Crosshair.SetActive(true);
         }
         ammo.SetText(AmmoCount + "/" + MaxAmmo);
+        anim = GetComponent<Animator>();
+        audio = gameObject.GetComponent<AudioSource>();
     }
-    
 
     // Update is called once per frame
     void Update()
@@ -45,31 +50,36 @@ public class AR1Controller : MonoBehaviour
         if (Input.GetKeyDown("r")&& Time.time >= nextTimeToFire)
         {
             nextTimeToFire = Time.time + reloadTime;
-            transform.localEulerAngles += reloadRotation;
+            anim.speed = 1;
+            anim.Play("Reload");
             isReloading = true;
+            Reloading.gameObject.SetActive(true);
+            audio.volume = 1;
+            audio.PlayOneShot(reloadSound);
         }
 
         if (isReloading == true && Time.time >= nextTimeToFire)
         {
-            transform.localEulerAngles = orignalRotation;
             AmmoCount = MaxAmmo;
             ammo.SetText(AmmoCount + "/" + MaxAmmo);
             isReloading = false;
+            Reloading.gameObject.SetActive(false);
+            audio.PlayOneShot(cockingSound);
         }
             
         if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
-            
             if (AmmoCount > 0 )
             {
                 nextTimeToFire = Time.time + fireRate;
-                AddRecoil();
-                
                 AmmoCount--; 
                 Shoot();
-                
+                audio.volume = 0.6f;
+                audio.PlayOneShot(gunshot);
+                anim.speed = RecoilSpeed;
+                anim.Play("Recoil");
                 ammo.SetText(AmmoCount + "/" + MaxAmmo);
-                StopRecoil();
+                
             }
             
         }
@@ -90,13 +100,5 @@ public class AR1Controller : MonoBehaviour
         }
     }
     
-    private void AddRecoil()
-    {
-        transform.localEulerAngles += Recoil;
-    }
     
-    private void StopRecoil()
-    {
-        transform.Rotate(fixRecoilRotation * (Time.deltaTime * 100));
-    }
 }

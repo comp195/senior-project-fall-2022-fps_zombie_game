@@ -19,23 +19,27 @@ public class Smg1Controller : MonoBehaviour
     
     public int MaxAmmo = 10;
     public int AmmoCount = 10;
-    public Vector3 Recoil;
-    private Vector3 orignalRotation;
-    [SerializeField] public Vector3 fixRecoilRotation;
-    [SerializeField] public Vector3 reloadRotation;
     public float reloadTime = 3;
     [SerializeField] private Transform bulletPoint;
     [SerializeField] private LayerMask enemylayer;
+    [SerializeField] public TextMeshProUGUI Reloading;
+
+    private Animator anim;
+
+    [SerializeField] public float RecoilSpeed = 10;
+    private AudioSource audio;
+    [SerializeField] public AudioClip gunshot;
+    [SerializeField] public AudioClip reloadSound;
     // Start is called before the first frame update
     void Start()
     {
-        orignalRotation = transform.localEulerAngles;
-            
         if (gameObject.isStatic)
         {
             Crosshair.SetActive(true);
         }
         ammo.SetText(AmmoCount + "/" + MaxAmmo);
+        anim = GetComponent<Animator>();
+        audio = gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -44,16 +48,19 @@ public class Smg1Controller : MonoBehaviour
         if (Input.GetKeyDown("r")&& Time.time >= nextTimeToFire)
         {
             nextTimeToFire = Time.time + reloadTime;
-            transform.localEulerAngles += reloadRotation;
+            anim.speed = 1;
+            anim.Play("Reload");
             isReloading = true;
+            Reloading.gameObject.SetActive(true);
+            audio.PlayOneShot(reloadSound);
         }
 
         if (isReloading == true && Time.time >= nextTimeToFire)
         {
-            transform.localEulerAngles = orignalRotation;
             AmmoCount = MaxAmmo;
             ammo.SetText(AmmoCount + "/" + MaxAmmo);
             isReloading = false;
+            Reloading.gameObject.SetActive(false);
         }
             
         if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
@@ -61,15 +68,16 @@ public class Smg1Controller : MonoBehaviour
             if (AmmoCount > 0 )
             {
                 nextTimeToFire = Time.time + fireRate;
-                AddRecoil();
                 AmmoCount--; 
                 Shoot();
+                audio.PlayOneShot(gunshot);
+                anim.speed = RecoilSpeed;
+                anim.Play("Recoil");
                 ammo.SetText(AmmoCount + "/" + MaxAmmo);
-                StopRecoil();
+                
             }
             
         }
-        
     }
     void Shoot()
     {
@@ -85,16 +93,6 @@ public class Smg1Controller : MonoBehaviour
             var healthCtrl = hit.collider.GetComponent<EnemyController>();
             healthCtrl.takeDamage(damage);
         }
-    }
-    
-    private void AddRecoil()
-    {
-        transform.localEulerAngles += Recoil;
-    }
-    
-    private void StopRecoil()
-    {
-        transform.Rotate(fixRecoilRotation * (10 * Time.deltaTime));
     }
     
     
