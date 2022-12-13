@@ -25,11 +25,15 @@ public class Pistol4Controller : MonoBehaviour
     public float reloadTime = 3;
     [SerializeField] private Transform bulletPoint;
     [SerializeField] private LayerMask enemylayer;
+    [SerializeField] public TextMeshProUGUI Reloading;
+    private AudioSource audio;
+    [SerializeField] public AudioClip gunshot;
+    [SerializeField] public AudioClip reloadSound;   
     // Start is called before the first frame update
     void Start()
     {
         orignalRotation = transform.localEulerAngles;
-            
+        audio = gameObject.GetComponent<AudioSource>();
         if (gameObject.isStatic)
         {
             Crosshair.SetActive(true);
@@ -45,14 +49,17 @@ public class Pistol4Controller : MonoBehaviour
             nextTimeToFire = Time.time + reloadTime;
             transform.localEulerAngles += reloadRotation;
             isReloading = true;
+            Reloading.gameObject.SetActive(true);
         }
 
         if (isReloading == true && Time.time >= nextTimeToFire)
         {
+            audio.PlayOneShot(reloadSound);
             transform.localEulerAngles = orignalRotation;
             AmmoCount = MaxAmmo;
             ammo.SetText(AmmoCount + "/" + MaxAmmo);
             isReloading = false;
+            Reloading.gameObject.SetActive(false);
         }
             
         if (Input.GetButtonDown("Fire1") && Time.time >= nextTimeToFire)
@@ -63,6 +70,8 @@ public class Pistol4Controller : MonoBehaviour
                 AddRecoil();
                 AmmoCount--; 
                 Shoot();
+                audio.volume = 0.5f;
+                audio.PlayOneShot(gunshot);
                 ammo.SetText(AmmoCount + "/" + MaxAmmo);
             }
                 

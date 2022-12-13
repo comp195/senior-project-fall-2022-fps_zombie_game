@@ -14,6 +14,11 @@ public class GunController : MonoBehaviour
     [SerializeField] public GameObject LV5Gun;
     [SerializeField] public GameObject LV6Gun;
     [SerializeField] public GameObject LV7Gun;
+    [SerializeField] public GameObject LV8Gun;
+    [SerializeField] public GameObject LV9Gun;
+    [SerializeField] public GameObject LV10Gun;
+    [SerializeField] public GameObject LV11Gun;
+    [SerializeField] public GameObject LV12Gun;
 
     public void addKill()
     {
@@ -50,6 +55,31 @@ public class GunController : MonoBehaviour
                 LV6toLV7();
                 killsCounter = 0;
             }
+            else if (LV7Gun.activeSelf)
+            {
+                LV7toLV8();
+                killsCounter = 0;
+            }
+            else if (LV8Gun.activeSelf)
+            {
+                LV8toLV9();
+                killsCounter = 0;
+            }
+            else if (LV9Gun.activeSelf)
+            {
+                LV9toLV10();
+                killsCounter = 0;
+            }
+            else if (LV10Gun.activeSelf)
+            {
+                LV10toLV11();
+                killsCounter = 0;
+            }
+            else if (LV11Gun.activeSelf)
+            {
+                LV11toLV12();
+                killsCounter = 0;
+            }
         }
     }
 
@@ -84,5 +114,29 @@ public class GunController : MonoBehaviour
         LV6Gun.SetActive(false);
         LV7Gun.SetActive(true);
     }
-    
+    public void LV7toLV8()
+    {
+        LV7Gun.SetActive(false);
+        LV8Gun.SetActive(true);
+    }
+    public void LV8toLV9()
+    {
+        LV8Gun.SetActive(false);
+        LV9Gun.SetActive(true);
+    }
+    public void LV9toLV10()
+    {
+        LV9Gun.SetActive(false);
+        LV10Gun.SetActive(true);
+    }
+    public void LV10toLV11()
+    {
+        LV10Gun.SetActive(false);
+        LV11Gun.SetActive(true);
+    }
+    public void LV11toLV12()
+    {
+        LV11Gun.SetActive(false);
+        LV12Gun.SetActive(true);
+    }
 }

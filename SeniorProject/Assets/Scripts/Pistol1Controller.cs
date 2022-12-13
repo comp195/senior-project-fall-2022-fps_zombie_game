@@ -25,7 +25,7 @@ public class Pistol1Controller : MonoBehaviour
         public float reloadTime = 3;
         [SerializeField] private Transform bulletPoint;
         [SerializeField] private LayerMask enemylayer;
-        
+        [SerializeField] public TextMeshProUGUI Reloading;
         
         // Start is called before the first frame update
         void Start()
@@ -47,6 +47,7 @@ public class Pistol1Controller : MonoBehaviour
                 nextTimeToFire = Time.time + reloadTime;
                 transform.localEulerAngles += reloadRotation;
                 isReloading = true;
+                Reloading.gameObject.SetActive(true);
             }
 
             if (isReloading == true && Time.time >= nextTimeToFire)
@@ -55,6 +56,7 @@ public class Pistol1Controller : MonoBehaviour
                 AmmoCount = MaxAmmo;
                 ammo.SetText(AmmoCount + "/" + MaxAmmo);
                 isReloading = false;
+                Reloading.gameObject.SetActive(false);
             }
             
             if (Input.GetButtonDown("Fire1") && Time.time >= nextTimeToFire)
