@@ -317,8 +317,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2a5ae20e4456c2439989cc3023843d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartScreen: {fileID: 0}
-  GameOverScreen: {fileID: 0}
   Food: {fileID: 0}
   starting_Time: 120
   countdownText: {fileID: 0}

@@ -8,8 +8,13 @@ public class EnemyFollow : MonoBehaviour
     public NavMeshAgent enemy;
 
     public Transform Player; // Update is called once per frame
+
+    public LayerMask WhatisGround, WhatisPlayer;
     void Update()
     {
         enemy.SetDestination(Player.position);
+        
     }
+    
+    
 }
