@@ -22,6 +22,8 @@ public class EnemyController : MonoBehaviour
 
     void killEnemy()
     {
+        
+        
         Destroy(this.gameObject);
         ScoreManager.instance.AddPoint();
         gunController.GetComponent<GunController>().addKill();
