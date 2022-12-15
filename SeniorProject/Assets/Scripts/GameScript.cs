@@ -26,7 +26,10 @@ public class GameScript : MonoBehaviour
     private int enemycount; // to count the number of the enemies
 
     [SerializeField] private GameObject Enemy; // refrence to enemy
+    
+    
 
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -50,6 +53,7 @@ public class GameScript : MonoBehaviour
             current_time = 0;
             Time.timeScale = 0;
         }
+        
 
 
 
