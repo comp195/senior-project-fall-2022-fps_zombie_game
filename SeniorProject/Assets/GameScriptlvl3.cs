@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameScriptlvl3 : MonoBehaviour
 {
-    [SerializeField] private GameObject Food;
 
     private int totalFood; //Total food remaining
     private float itemscollected; // number of food items collected 
@@ -28,8 +28,6 @@ public class GameScriptlvl3 : MonoBehaviour
     {
         Time.timeScale = 1;
         StartCoroutine(EnemySpawn()); // to spawn enemies in random locations
-        itemscollected = 0;
-        totalFood = Food.transform.childCount; 
         current_time = starting_Time; // time set to 120 seconds at the start
         msgPrefix = "Time: ";
     }
@@ -44,16 +42,12 @@ public class GameScriptlvl3 : MonoBehaviour
         if (current_time <= 0)
         {
             current_time = 0;
+            SceneManager.LoadScene("WinGameScreen");
         }
         
 
 
 
-    }
-
-    public void CollectedItem() // to see how many health boxes have been collected
-    {
-        itemscollected++;
     }
 
     float numItemsCollected()
@@ -65,8 +59,8 @@ public class GameScriptlvl3 : MonoBehaviour
     {
         while (current_time > -1)
         {
-             xPos = Random.Range(49, 124);
-             zPos = Random.Range(49, 694);
+             xPos = Random.Range(70, 25);
+             zPos = Random.Range(70, 84);
             Instantiate(Enemy, new Vector3(xPos,1 , zPos), Quaternion.identity);
             yield return new WaitForSeconds(0.5f);
             enemycount += 1;

@@ -5412,10 +5412,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: {fileID: 1890622733}
-  starting_Time: 3
+  starting_Time: 200
   countdownText: {fileID: 1309209409}
   Enemy: {fileID: 191327471}
-  TransitionScene: {fileID: 0}
 --- !u!114 &7049833713269491958
 MonoBehaviour:
   m_ObjectHideFlags: 0

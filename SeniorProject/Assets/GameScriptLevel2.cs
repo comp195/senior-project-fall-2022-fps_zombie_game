@@ -46,7 +46,6 @@ public class GameScriptLevel2 : MonoBehaviour
         if (current_time <= 0)
         {
             current_time = 0;
-            Time.timeScale = 0;
             SceneManager.LoadScene("Level-3 (simple city)");
         }
         
