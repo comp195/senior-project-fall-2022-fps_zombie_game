@@ -1059,7 +1059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &29747185
 MonoBehaviour:
@@ -1363,7 +1363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &35782748
 MonoBehaviour:
@@ -1599,7 +1599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealthPoint: 100
   Itime: 2
-  damage: 30
+  damage: 40
   healthbar: {fileID: 664530117}
 --- !u!114 &63729710
 MonoBehaviour:
@@ -1614,9 +1614,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: {fileID: 0}
-  starting_Time: 120
-  countdownText: {fileID: 0}
-  Enemy: {fileID: 0}
+  starting_Time: 200
+  countdownText: {fileID: 62696181}
+  Enemy: {fileID: 287635123}
 --- !u!1001 &68982478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2223,7 +2223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &89787248
 MonoBehaviour:
@@ -2462,7 +2462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &95430971
 MonoBehaviour:
@@ -5009,7 +5009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &171313838
 MonoBehaviour:
@@ -5746,7 +5746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &188883403
 MonoBehaviour:
@@ -6637,7 +6637,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!195 &225413171
 NavMeshAgent:
@@ -8947,7 +8947,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!195 &287635126
 NavMeshAgent:
@@ -10163,7 +10163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &335062980
 MonoBehaviour:
@@ -11598,7 +11598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &387667120
 MonoBehaviour:
@@ -14932,7 +14932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5708929442133819628, guid: 076192a393b444148bbd34f01ddde818, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 52.14
+      value: 98.97
       objectReference: {fileID: 0}
     - target: {fileID: 5708929442133819628, guid: 076192a393b444148bbd34f01ddde818, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14940,7 +14940,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5708929442133819628, guid: 076192a393b444148bbd34f01ddde818, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 76.26
+      value: 99.24
       objectReference: {fileID: 0}
     - target: {fileID: 5708929442133819628, guid: 076192a393b444148bbd34f01ddde818, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18474,7 +18474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!195 &619944075
 NavMeshAgent:
@@ -19469,7 +19469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &646283190
 MonoBehaviour:
@@ -22486,7 +22486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &750120038
 MonoBehaviour:
@@ -26208,7 +26208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &850926766
 MonoBehaviour:
@@ -30906,7 +30906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &999417102
 MonoBehaviour:
@@ -33897,7 +33897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &1104500227
 MonoBehaviour:
@@ -34684,7 +34684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &1121489626
 MonoBehaviour:
@@ -35038,7 +35038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &1126535579
 MonoBehaviour:
@@ -35848,7 +35848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &1159477942
 MonoBehaviour:
@@ -38499,7 +38499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &1229956491
 MonoBehaviour:
@@ -42044,7 +42044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!195 &1359992832
 NavMeshAgent:
@@ -42278,7 +42278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &1363645827
 MonoBehaviour:
@@ -43838,7 +43838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &1416253176
 MonoBehaviour:
@@ -45535,7 +45535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &1477113660
 MonoBehaviour:
@@ -46576,7 +46576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &1503436898
 MonoBehaviour:
@@ -48515,7 +48515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &1571149980
 MonoBehaviour:
@@ -49726,7 +49726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &1604575224
 MonoBehaviour:
@@ -55328,7 +55328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &1801613494
 MonoBehaviour:
@@ -58008,7 +58008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &1866047121
 MonoBehaviour:
@@ -60660,7 +60660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &1952069463
 MonoBehaviour:
@@ -62035,7 +62035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &1999105253
 MonoBehaviour:
@@ -66597,7 +66597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63afb151dc6105948bd3204936ef9c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitpoint: 100
+  Hitpoint: 120
   gunController: {fileID: 531877779}
 --- !u!114 &2118805372
 MonoBehaviour:
