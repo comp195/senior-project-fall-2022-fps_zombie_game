@@ -26,7 +26,8 @@ public class GameScript : MonoBehaviour
     private int enemycount; // to count the number of the enemies
 
     [SerializeField] private GameObject Enemy; // refrence to enemy
-    
+
+    [SerializeField] private GameObject TransitionScene;
     
 
     
@@ -51,7 +52,7 @@ public class GameScript : MonoBehaviour
         if (current_time <= 0)
         {
             current_time = 0;
-            Time.timeScale = 0;
+            SceneManager.LoadScene("Level-2");
         }
         
 
@@ -82,5 +83,10 @@ public class GameScript : MonoBehaviour
 
         }
         
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("GameStartScreen");
     }
 }

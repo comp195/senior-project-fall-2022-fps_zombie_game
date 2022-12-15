@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameScriptLevel2 : MonoBehaviour
 {
@@ -46,6 +47,7 @@ public class GameScriptLevel2 : MonoBehaviour
         {
             current_time = 0;
             Time.timeScale = 0;
+            //SceneManager.LoadScene("TransitionScene");
         }
         
 
