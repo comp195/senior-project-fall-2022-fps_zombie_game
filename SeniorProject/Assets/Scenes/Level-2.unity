@@ -849,7 +849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Food: {fileID: 1312197633}
-  starting_Time: 200
+  starting_Time: 10
   countdownText: {fileID: 654632326}
   Enemy: {fileID: 1345579106}
 --- !u!114 &455265343
@@ -1502,8 +1502,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885448413}
-  m_LocalRotation: {x: -0.18890078, y: 0.22462724, z: 0.044489857, w: 0.954924}
-  m_LocalPosition: {x: 510.81326, y: -16.969456, z: 696.08984}
+  m_LocalRotation: {x: 0.34113678, y: 0.048492435, z: 0.01763653, w: -0.93859637}
+  m_LocalPosition: {x: 330.31555, y: -66.45037, z: 319.90918}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

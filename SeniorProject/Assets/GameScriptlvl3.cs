@@ -1,15 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Globalization;
 using TMPro;
-using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEngine;
-using UnityEngine.AI;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
-
-public class GameScript : MonoBehaviour
+public class GameScriptlvl3 : MonoBehaviour
 {
     [SerializeField] private GameObject Food;
 
@@ -50,7 +44,6 @@ public class GameScript : MonoBehaviour
         if (current_time <= 0)
         {
             current_time = 0;
-            SceneManager.LoadScene("Level-2");
         }
         
 
@@ -81,10 +74,5 @@ public class GameScript : MonoBehaviour
 
         }
         
-    }
-
-    public void MainMenu()
-    {
-        SceneManager.LoadScene("GameStartScreen");
     }
 }

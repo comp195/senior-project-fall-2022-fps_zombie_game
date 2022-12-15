@@ -47,7 +47,7 @@ public class GameScriptLevel2 : MonoBehaviour
         {
             current_time = 0;
             Time.timeScale = 0;
-            //SceneManager.LoadScene("TransitionScene");
+            SceneManager.LoadScene("Level-3 (simple city)");
         }
         
 
