@@ -11,7 +11,7 @@ using Vector3 = UnityEngine.Vector3;
 public class EnemyFollow : MonoBehaviour
 {
     [SerializeField] private Transform player;
-    private NavMeshAgent agent;
+    [SerializeField]private NavMeshAgent agent;
     private float origSpeed;
 
     void Start()
